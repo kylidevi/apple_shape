@@ -883,58 +883,7 @@ plot1 <- ggpairs(all_data, columns = 19:28, aes(fill = "grey", alpha = 0.5), col
 ggsave("SupplementalFigure1_draft1029.pdf", plot = plot1, units = "in", width = 17, height = 15)
 ```
 
-### Spearman's Rank Correlation and Bonferroni Correction
-
-```{r}
-#| label: Spearman's Rank Correlation and Bonferroni Correction
-
-# Spearman's Rank Correlation
-all_data <- read.csv("20241029apple_metadata.csv")
-
-cor_table <- all_data %>% 
-  dplyr::select(20:29) %>% 
-  distinct(apple_id, .keep_all = TRUE)
-
-pairwise_comp <- matrix(, ncol = ncol(cor_table), nrow = ncol(cor_table))
-rownames(pairwise_comp) <- colnames(cor_table)
-colnames(pairwise_comp) <- colnames(cor_table)
-
-pairwise_comp_r <- matrix(, ncol = ncol(cor_table), nrow = ncol(cor_table))
-rownames(pairwise_comp_r) <- colnames(cor_table)
-colnames(pairwise_comp_r) <- colnames(cor_table)
-
-for (i in 1:ncol(cor_table)) {
-  name_x = colnames(cor_table)[i]
-  for (j in 1:ncol(cor_table)) {
-    name_y = colnames(cor_table)[j]
-    pairwise_comp[j, i] = cor.test(cor_table[,i], cor_table[,j], method = "spearman")$p.value
-    pairwise_comp_r[j, i] = cor.test(cor_table[,i], cor_table[,j], method = "spearman")$estimate
-    
-  }
-}
-
-#Bonferroni correction
-pairwise_comp[lower.tri(pairwise_comp)] = NA
-
-pairwise_comp[upper.tri(pairwise_comp)] = p.adjust(pairwise_comp[upper.tri(pairwise_comp)], method = "bonferroni")
-
-# 45 comparisons
-length(pairwise_comp[upper.tri(pairwise_comp)] )
-
-
-#how many are significant?
-table(pairwise_comp[upper.tri(pairwise_comp)] <0.05)
-
-# FALSE  TRUE 
-#    28    17 
-# 17/45 are significant 
-
-write.csv(pairwise_comp, file = "bonferroni_pval.csv")
-write.csv(pairwise_comp_r, file = "bonferroni_rho.csv")
-```
-
 ### Eigen Representation of PC
-
 ```{python}
 #| label: Eigen Representation of PC
 ###################################################
