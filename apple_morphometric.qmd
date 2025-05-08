@@ -149,6 +149,28 @@ def gpa_mean(leaf_arr, landmark_num, dim_num):
         old_mean = new_mean # set the old_mean to the new_mea before beginning another iteration
 
     return new_mean
+
+def polygon_perimeter(vertices):
+ 
+  """
+  Calculates the perimeter of a polygon given its vertices.
+
+  Args:
+    vertices: A numpy array of shape (n, 2) representing the coordinates
+              of the polygon's vertices, where n is the number of vertices.
+
+  Returns:
+    The perimeter of the polygon.
+  """
+ 
+  if vertices.shape[0] < 2:
+      return 0
+
+  distances = np.sqrt(np.sum(np.diff(vertices, axis=0)**2, axis=1))
+  perimeter = np.sum(distances)
+  perimeter += np.sqrt(np.sum((vertices[0] - vertices[-1])**2))
+ 
+  return perimeter
 ```
 
 <!-- Following sections are for reading in the data and does the preliminary image analysis -->
@@ -164,7 +186,7 @@ def gpa_mean(leaf_arr, landmark_num, dim_num):
 ########################
 
 # read in csv from directory
-mdata = pd.read_csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/apple_metadata.csv") 
+mdata = pd.read_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/apple_metadata.csv") 
 
 mdata.head() # head data to check
 ```
@@ -176,7 +198,7 @@ mdata.head() # head data to check
 #######################################
 
 # set image directory
-data_dir = "C:/Users/User/Desktop/COOP02/code/apple_shape/binary_domestica/" 
+data_dir = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/binary_domestica/" 
 
 file_names = [f for f in listdir(data_dir) if isfile(join(data_dir, f))] # create a list of file names
 
@@ -401,7 +423,58 @@ plt.suptitle(str(res*2-1) + " pseudo-landmarks")
 plt.show()
 
 # export figure
-plt.savefig("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/Figure1d.pdf", )
+plt.savefig("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505Figure1d.pdf")
+```
+
+```{python}
+#| label: Pseudo-landmarks shape
+# Plot each apple
+
+plt.figure(figsize=(40,60))
+
+for i in range(20):
+    
+    plt.subplot(4,5,i+1)
+    plt.plot(apple_cm_arr[i,:,0], apple_cm_arr[i,:,1], c="k", lw=0.5)
+    plt.plot([min(apple_cm_arr[i,:,0])-0.1,min(apple_cm_arr[i,:,0])-0.1],
+            [apple_cm_arr[i,0,1], apple_cm_arr[i,0,1]+1], c="k", lw=0.5) # cm scale
+    plt.scatter(apple_cm_arr[i,:,0], apple_cm_arr[i,:,1], c="k", s=0.5)
+    
+    # find the left most point (MIN X)
+    min_x = np.min(apple_cm_arr[i,:,0])
+    min_x_index = np.argmin(apple_cm_arr[i,:,0])
+    min_y = apple_cm_arr[i, min_x_index, 1]
+    plt.scatter(min_x, min_y, c="red", s=3)
+    
+    # find the right most point (MAX X)
+    max_x = np.max(apple_cm_arr[i,:,0])
+    max_x_index = np.argmin(apple_cm_arr[i,:,0])
+    max_y = apple_cm_arr[i, max_x_index, 1]
+    plt.scatter(max_x, max_y, c="blue", s=3)
+    
+    # find the topmost point (MAX Y)
+    max_y = np.max(apple_cm_arr[i,:,1])
+    max_y_index = np.argmin(apple_cm_arr[i,:,1])
+    max_x = apple_cm_arr[i, max_y_index, 0]
+    plt.scatter(max_x, max_y, c="orange", s=3)
+    
+    # find the lowermost point (MIN Y)
+    min_y = np.min(apple_cm_arr[i,:,1])
+    min_y_index = np.argmin(apple_cm_arr[i,:,1])
+    min_x = apple_cm_arr[i, max_y_index, 0]
+    plt.scatter(min_x, min_y, c="purple", s=3)
+    
+    plt.title(mdata["apple_id"][i], fontsize=8)
+    
+    plt.gca().set_aspect("equal")
+    plt.axis("off")
+    
+plt.subplots_adjust(hspace=0.4)
+plt.suptitle(str(res*2-1) + " pseudo-landmarks")
+plt.show()
+
+# export figure
+plt.savefig("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505supplementalLandmarks.pdf")
 ```
 
 <!-- The following sections of code are for analysis -->
@@ -425,7 +498,7 @@ width_list = []
 length_list = []
 area_list = []
 solidity_list = []
-# asymmetry_list = []
+circularity_list = []
 
 # for each apple . . .
 for lf in range(len(apple_cm_arr)):
@@ -439,7 +512,8 @@ for lf in range(len(apple_cm_arr)):
     
     width = np.max(curr_lf[:,0])-np.min(curr_lf[:,0]) # calculate width
     length = np.max(curr_lf[:,1])-np.min(curr_lf[:,1]) # calculate length
-    area = poly_area(curr_lf[:,0],curr_lf[:,1]) # calcualte area
+    area = poly_area(curr_lf[:,0],curr_lf[:,1]) # calculate area
+    perimeter = polygon_perimeter(curr_lf) # calculate perimeter
     
     ##########################
     ### CALCULATE SOLIDITY ###
@@ -450,33 +524,28 @@ for lf in range(len(apple_cm_arr)):
     convex_area = poly_area(curr_lf[vertices,0], curr_lf[vertices,1]) # calculate convex area
     solidity = area / convex_area # calculate solidity
     
-    ##########################
-    ### CALCULATE SYMMETRY ###
-    ##########################
+    #############################
+    ### CALCULATE CIRCULARITY ###
+    #############################
     
-    # left_side = curr_lf[:(res-1)+1,] # isolate left side of apple
-    # right_side = curr_lf[(res-1):,] # isolate right side of apple
-    # right_side = right_side[::-1] # reverse the right side to align indices with left
-    # 
-    # # calculate procrustes distance between left and right side of apple
-    # s1, s2, distance = procrustes(left_side, right_side) 
+    circularity =  (4 * math.pi * area) / (perimeter ** 2)
     
     # store data in lists
     width_list.append(width)
     length_list.append(length)
     area_list.append(area)
     solidity_list.append(solidity)
-    # asymmetry_list.append(distance)
+    circularity_list.append(circularity)
     
 # add data to the mdata dataframe
 mdata["width"] = width_list
 mdata["length"] = length_list
 mdata["area"] = area_list
 mdata["solidity"] = solidity_list
-# mdata["asymmetry"] = asymmetry_list
+mdata["circularity"] = circularity_list
 
 # save output so you don't have to run the code all the time
-mdata.to_csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv", index = False)
+mdata.to_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv", index = False)
 ```
 
 #### REML Adjustment
@@ -487,15 +556,15 @@ mdata.to_csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/2024121
 library(tidyverse)
 
 # reading data
-apple_traits <- read.csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv")
+apple_traits <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
 
 # averaging within the tree
 apple_traits <- apple_traits %>% 
   group_by(nursery_id) %>% 
-  mutate(across(all_of(c(8:11)), ~mean(.x, na.rm = TRUE), .names = "{col}"))
+  mutate(across(all_of(c(8:12)), ~mean(.x, na.rm = TRUE), .names = "{col}"))
 
 # save file
-write.csv(apple_traits, file = "C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata_avg.csv")
+write.csv(apple_traits, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata_avg.csv")
 ```
 
 <!-- Running the REML adjustment -->
@@ -509,9 +578,9 @@ library(pbkrtest)
 library(tidyverse)
 
 # load in data
-reml_design <- read.table("C:/Users/User/Desktop/COOP02/code/apple_shape/reml/20161024_ABC_design_grid_zm.txt", header = T)
+reml_design <- read.table("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/reml/20161024_ABC_design_grid_zm.txt", header = T)
 
-apple_traits <- read.csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata_avg.csv")
+apple_traits <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata_avg.csv")
 
 # Loading the metadata to match the design file
 ph = apple_traits[match(reml_design[,"nursery_id"], apple_traits[,"nursery_id"]),] # Grab phenotype data in correct order
@@ -602,26 +671,26 @@ cor.test(mean_vals$solidity, solidity_reml_lsmeans_predict)
 #cor solidity: 0.9995955 
 
 
-# ### ASYMMETRY ---------
-# #Run the model
-# asymmetry_reml <- lmer(formula = asymmetry ~ apple_id + ( 1 | Block) + ( 1 | Block:rGrid) + ( 1 | Block:cGrid) + ( 1 | Block:cGrid:rGrid), data= ph,  REML = TRUE) #apple_id is fixed effect
-# 
-# #Get the least-square means
-# asymmetry_reml_lsmeans <- lsmeans(asymmetry_reml , "apple_id")
-# asymmetry_reml_lsmeans_predict <- predict(asymmetry_reml_lsmeans)
-# names(asymmetry_reml_lsmeans_predict) = levels(ph$apple_id)
-# 
-# # Adding to the data
-# predict <- cbind(predict, asymmetry_reml_lsmeans_predict)
-# 
-# #Compare the predicted ls_means by cultivar to a simple arithmetic mean by cultivar
-# mean_vals = aggregate(asymmetry ~ apple_id, data = ph, mean)
-# plot(mean_vals$asymmetry, asymmetry_reml_lsmeans_predict)
-# cor.test(mean_vals$asymmetry, asymmetry_reml_lsmeans_predict)
-# #cor asymmetry: 0.9991252
+### CIRCULARITY ---------
+#Run the model
+circularity_reml <- lmer(formula = circularity ~ apple_id + ( 1 | Block) + ( 1 | Block:rGrid) + ( 1 | Block:cGrid) + ( 1 | Block:cGrid:rGrid), data= ph,  REML = TRUE) #apple_id is fixed effect
+
+#Get the least-square means
+circularity_reml_lsmeans <- lsmeans(circularity_reml , "apple_id")
+circularity_reml_lsmeans_predict <- predict(circularity_reml_lsmeans)
+names(circularity_reml_lsmeans_predict) = levels(ph$apple_id)
+
+# Adding to the data
+predict <- cbind(predict, circularity_reml_lsmeans_predict)
+
+#Compare the predicted ls_means by cultivar to a simple arithmetic mean by cultivar
+mean_vals = aggregate(circularity ~ apple_id, data = ph, mean)
+plot(mean_vals$circularity, circularity_reml_lsmeans_predict)
+cor.test(mean_vals$circularity, circularity_reml_lsmeans_predict)
+#cor circularity: 0.9909962
 
 predict <- tibble::rownames_to_column(predict, "apple_id")
-write_delim(predict, file = "C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/prediction_values.txt")
+write_delim(predict, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/prediction_values.txt")
 ```
 
 <!-- The following sections are the Procrustes Analysis -->
@@ -694,7 +763,7 @@ for i in range(len(pca_all.explained_variance_ratio_)):
 ### NEXT, CALCULATE THE DESIRED NUMBER OF PCs ###
 #################################################
 
-new_mdata = pd.read_csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv")
+new_mdata = pd.read_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
 
 ##############
 PC_NUMBER = 3
@@ -715,7 +784,7 @@ new_mdata["PC2"] = PCs[:,1]
 new_mdata["PC3"] = PCs[:,2]
 
 # save output with PC
-new_mdata.to_csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv", index = False)
+new_mdata.to_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv", index = False)
 ```
 
 #### REML Adjustment
@@ -724,15 +793,15 @@ new_mdata.to_csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/202
 #| label: REML Input Data (PC)
 
 # read in files
-apple_traits <- read.csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv")
+apple_traits <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
 
 # averaging within the tree
 apple_traits <- apple_traits %>% 
   group_by(nursery_id) %>% 
-  mutate(across(all_of(c(12:14)), ~mean(.x, na.rm = TRUE), .names = "{col}"))
+  mutate(across(all_of(c(13:15)), ~mean(.x, na.rm = TRUE), .names = "{col}"))
 
 # save file
-write.csv(apple_traits, file = "C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata_avg.csv")
+write.csv(apple_traits, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata_avg.csv")
 ```
 
 <!-- Running the REML adjustment -->
@@ -746,9 +815,9 @@ library(pbkrtest)
 library(tidyverse)
 
 # read in data
-reml_design <- read.table("C:/Users/User/Desktop/COOP02/code/apple_shape/reml/20161024_ABC_design_grid_zm.txt", header = T)
+reml_design <- read.table("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/reml/20161024_ABC_design_grid_zm.txt", header = T)
 
-apple_traits <- read.csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata_avg.csv")
+apple_traits <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata_avg.csv")
 
 # Loading the metadata to match the design file
 ph = apple_traits[match(reml_design[,"nursery_id"], apple_traits[,"nursery_id"]),] # Grab phenotype data in correct order
@@ -820,7 +889,7 @@ cor.test(mean_vals$PC3, PC3_reml_lsmeans_predict)
 #cor PC3: 1
 
 # save data
-write_delim(predict, file = "C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/prediction_values.txt")
+write_delim(predict, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/prediction_values.txt")
 ```
 
 <!-- Supplemental Figure 1 -->
@@ -835,14 +904,14 @@ library(readxl)
 library(ggthemes)
 
 # import data
-predicted <- read.delim("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/prediction_values.txt", sep = "")
-apple_data <- read.csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv") 
-dataset <- read_excel("C:/Users/User/Desktop/COOP02/code/apple_shape/Dataset_S1.xlsx", sheet = "phenotype_data")
+predicted <- read.delim("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/prediction_values.txt", sep = "")
+apple_data <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv") 
+dataset <- read_excel("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/Dataset_S1.xlsx", sheet = "phenotype_data")
 
 # combining datasets
 all_data <- left_join(apple_data, predicted)
 all_data <- all_data %>% left_join(dataset) %>% 
-  dplyr::select(1:30, 39)
+  dplyr::select(1:32, 41)
 
 # converting data types
 all_data$apple_id <- factor(all_data$apple_id)
@@ -854,11 +923,11 @@ all_data$release_year <- as.numeric(all_data$release_year)
 all_data <- all_data %>% mutate(aspect_ratio = width_reml_lsmeans_predict / length_reml_lsmeans_predict)
 
 # relocating to plot easier
-all_data <- all_data %>% relocate(aspect_ratio, .after = solidity_reml_lsmeans_predict)
+all_data <- all_data %>% relocate(aspect_ratio, .after = circularity_reml_lsmeans_predict)
 all_data <- all_data %>% relocate(weight_avg_16_harv, .after = aspect_ratio)
 
 # save data before with all apple id
-write.csv(all_data, file = "C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv")
+write.csv(all_data, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
 
 # table how many binaries per tree
 trees <- all_data %>% 
@@ -866,17 +935,17 @@ trees <- all_data %>%
   summarise(total_count = n())
 
 # save summary
-write.csv(trees, file = "C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/sample_size.csv", row.names = FALSE)
+write.csv(trees, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505sample_size.csv", row.names = FALSE)
 
 # filter for each unique genotype
 all_data <- all_data %>% distinct(apple_id, .keep_all = TRUE)
 
 # MAKE SURE THAT THIS IS PLOTTING CORRECTLY ADD IN BETTER LABELS
 # plotting for 533 different apple_id with REML adjusted values
-plot1 <- ggpairs(all_data, columns = c(16:24, 32), aes(fill = "grey", alpha = 0.5), columnLabels = c("Width", "Length", "Area", "Solidity", "Aspect Ratio", "Harvest Weight", "PC1", "PC2", "PC3", "Release Year"), upper = list(continuous = "points"), diag = list(continuous = wrap("densityDiag", fill = "black"))) + theme_few()
+plot1 <- ggpairs(all_data, columns = c(17:26, 34), aes(fill = "grey", alpha = 0.5), columnLabels = c("Width", "Length", "Area", "Solidity", "Circularity", "Aspect Ratio", "Harvest Weight", "PC1", "PC2", "PC3", "Release Year"), upper = list(continuous = "points"), diag = list(continuous = wrap("densityDiag", fill = "black"))) + theme_few()
 
 # save plot
-ggsave("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/SupplementalFigure1_1219.pdf", plot = plot1, units = "in", width = 17, height = 15)
+ggsave("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/SupplementalFigure1_0505.pdf", plot = plot1, units = "in", width = 17, height = 15)
 ```
 
 ### Eigen Representation of PC
@@ -887,7 +956,7 @@ ggsave("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/SupplementalF
 ### CREATE EIGEN REPRESENTATIONS OF FIRST 3 PCs ###
 ###################################################
 
-new_mdata = pd.read_csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv")
+new_mdata = pd.read_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
 
 # calculate standard deviations for each PC
 PC1_std = new_mdata["PC1_reml_lsmeans_predict"].std()
@@ -947,7 +1016,7 @@ plt.tight_layout()
 plt.show()
 
 # save figure
-plt.savefig("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/SupplementalFigure2_1219.pdf")
+plt.savefig("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/SupplementalFigure2_0505.pdf")
 ```
 
 ### Morphospace (by Genotype)
@@ -964,7 +1033,7 @@ Visualize a morphospace and classify apples by the factor of genotype
 ### CREATE MORPHOSPACE ###
 ##########################
 
-averaged = pd.read_csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv")
+averaged = pd.read_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
 
 # set plot parameters
 plot_length = 40  # plot length in inches
@@ -1046,5 +1115,5 @@ plt.gca().set_axisbelow(True)
 plt.show()
 
 # save figure
-plt.savefig("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/Figure3_1219.pdf")
+plt.savefig("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/Figure3_0505.pdf")
 ```
