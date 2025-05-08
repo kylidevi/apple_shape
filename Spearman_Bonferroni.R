@@ -4,9 +4,9 @@
 library(tidyverse)
 
 # load in data set and select for calculated values
-cor_table <- read.csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219apple_metadata.csv") %>% 
+cor_table <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv") %>% 
   distinct(apple_id, .keep_all = TRUE) %>% 
-  dplyr::select(17:25, 33)
+  dplyr::select(18:27, 35)
   
 # creating matrices to store values in
 pairwise_comp <- matrix(, ncol = ncol(cor_table), nrow = ncol(cor_table))
@@ -35,16 +35,16 @@ pairwise_comp[lower.tri(pairwise_comp)] = NA
 # Bonferroni adjusting the p-values
 pairwise_comp[upper.tri(pairwise_comp)] = p.adjust(pairwise_comp[upper.tri(pairwise_comp)], method = "bonferroni")
 
-# 45 comparisons
+# 55 comparisons
 length(pairwise_comp[upper.tri(pairwise_comp)] )
 
 
 #how many are significant?
 table(pairwise_comp[upper.tri(pairwise_comp)] <0.05)
 # FALSE  TRUE 
-#    25    20 
-# 20/45 are significant
-# 19/20 are positive
+#    30    25 
+# 25/55 are significant
+# 20/25 are positive 
 
 
 # Formatting Table --------------------------------------------------------
@@ -71,6 +71,7 @@ correlation_data <- correlation_data %>%
   mutate(`trait 1` = gsub("area_reml_lsmeans_predict", "Area", `trait 1`)) %>% 
   mutate(`trait 1` = gsub("solidity_reml_lsmeans_predict", "Solidity", `trait 1`)) %>% 
   mutate(`trait 1` = gsub("asymmetry_reml_lsmeans_predict", "Asymmetry", `trait 1`)) %>% 
+  mutate(`trait 1` = gsub("circularity_reml_lsmeans_predict", "Circularity", `trait 1`)) %>%
   mutate(`trait 1` = gsub("PC1_reml_lsmeans_predict", "PC1", `trait 1`)) %>% 
   mutate(`trait 1` = gsub("PC2_reml_lsmeans_predict", "PC2", `trait 1`)) %>% 
   mutate(`trait 1` = gsub("PC3_reml_lsmeans_predict", "PC3", `trait 1`)) %>% 
@@ -84,6 +85,7 @@ correlation_data <- correlation_data %>%
   mutate(`trait 2` = gsub("area_reml_lsmeans_predict", "Area", `trait 2`)) %>% 
   mutate(`trait 2` = gsub("solidity_reml_lsmeans_predict", "Solidity", `trait 2`)) %>% 
   mutate(`trait 2` = gsub("asymmetry_reml_lsmeans_predict", "Asymmetry", `trait 2`)) %>% 
+  mutate(`trait 2` = gsub("circularity_reml_lsmeans_predict", "Circularity", `trait 2`)) %>%
   mutate(`trait 2` = gsub("PC1_reml_lsmeans_predict", "PC1", `trait 2`)) %>% 
   mutate(`trait 2` = gsub("PC2_reml_lsmeans_predict", "PC2", `trait 2`)) %>% 
   mutate(`trait 2` = gsub("PC3_reml_lsmeans_predict", "PC3", `trait 2`)) %>% 
@@ -92,8 +94,8 @@ correlation_data <- correlation_data %>%
   mutate(`trait 2` = gsub("release_year", "Release Year", `trait 2`))
   
 # export table
-write.csv(correlation_data, file = "C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241219Appendix_Table_S2.csv", row.names = FALSE)
+write.csv(correlation_data, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505Appendix_Table_S2.csv", row.names = FALSE)
 
 table(correlation_data$correlation < 0 & correlation_data$pval < 0.05)
 # FALSE  TRUE 
-#    40     5 
+#    50     5 
