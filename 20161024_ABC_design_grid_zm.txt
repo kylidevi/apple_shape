@@ -1,0 +1,2357 @@
+Row	Tree	Block	nursery_id	PLANTID	apple_id	rGrid	cGrid	pGrid
+1	1	North	5160	"Court Pendu"	440	1	1	1
+1	2	North	6035	Boutteville	506	1	1	2
+1	3	North	1046	Topaz	16	1	1	3
+1	4	North	2251	"KAZ 93-12-02"	151	1	1	4
+1	5	North	10307	Orleans	1015	1	1	5
+1	6	North	4259	"KAS 7"	360	1	1	6
+1	7	North	6064	Collet	516	1	1	7
+1	8	North	9171	Jewel	864	1	1	8
+1	9	North	10313	"Maiden Blush"	1017	1	1	9
+1	10	North	9198	"King of the Pippins"	873	1	1	10
+1	11	North	10065	"Red Baron"	935	1	1	11
+1	12	North	7011	S23-06-133	600	1	1	12
+1	13	North	5145	Bean	435	1	1	13
+1	14	North	12097	Wealthy	1171	1	1	14
+1	15	North	3046	"Pink Pearl"	189	1	1	15
+1	16	North	12094	Trebu	1170	1	1	16
+1	17	North	12010	"Teint Fraise"	1143	1	1	17
+1	18	North	5171	Benoni	444	1	1	18
+1	19	North	12113	Suvorovets	1176	1	1	19
+1	20	North	2059	"Kaz 95 07-05"	114	1	1	20
+1	21	North	10166	"Pfirsichroter Sommerapfel"	969	1	1	21
+1	22	North	1148	8S-29-18	50	2	1	1
+1	23	North	10292	Metais	1010	2	1	2
+1	24	North	11317	"Trembletts Bitter"	1133	2	1	3
+1	25	North	3317	"KAR 93"	269	2	1	4
+1	26	North	12103	Sharopa	1173	2	1	5
+1	27	North	11074	Major	1053	2	1	6
+1	28	North	1146	"SPA 283"	49	2	1	7
+1	29	North	10074	"Red Paducah"	938	2	1	8
+1	30	North	4206	"KAR 33"	345	2	1	9
+1	31	North	8058	"Ellison's Orange"	715	2	1	10
+1	32	North	8297	Fireside	795	2	1	11
+1	33	North	4031	"KAS 66"	293	2	1	12
+1	34	North	6202	Champlain	560	2	1	13
+1	35	North	9286	"Geeveston Fanny"	901	2	1	14
+1	36	North	6061	Duchess	515	2	1	15
+1	37	North	2146	"KAZ 96 03-15"	127	2	1	16
+1	38	North	5288	"Baumann's Reinette"	483	2	1	17
+1	39	North	3265	Pionier	252	2	1	18
+1	40	North	13059	"Sweet Caroline"	1207	2	1	19
+1	41	North	8195	"Gros Frequin"	761	2	1	20
+1	42	North	5214	"Antonovka Ottawa"	458	3	1	1
+1	43	North	2170	"Kaz 95 18-02P-33"	1263	3	1	2
+1	44	North	2086	"KAZ 96 03-01P-7"	119	3	1	3
+1	45	North	8148	"Gruzhovka of Moscow"	745	3	1	4
+1	46	North	6199	"Adersleber Kalvill"	559	3	1	5
+1	47	North	4088	"KAS 54"	309	3	1	6
+1	48	North	6184	Auralia	554	3	1	7
+1	49	North	1235	NY74828	77	3	1	8
+1	50	North	6131	"Drap d'Or Guemene"	536	3	1	9
+1	51	North	3152	"KAZ 96 08-16"	217	3	1	10
+1	52	North	1071	Britegold	24	3	1	11
+1	53	North	5312	Carlton	491	3	1	12
+1	54	North	4223	"KAR 15"	349	3	1	13
+1	55	North	1199	Otava	66	3	1	14
+1	56	North	6172	"Binet Blanc"	550	3	1	15
+1	57	North	2122	"Kaz 95 18-02P-31"	1261	3	1	16
+1	58	North	10205	"Prairie Spy"	981	3	1	17
+1	59	North	2272	"Crimson Beauty"	158	3	1	18
+1	60	North	1302	"Egremont Russet"	99	3	1	19
+1	61	North	2180	"KAZ 96 09-02"	1296	3	1	20
+1	62	North	4272	"KAR 23"	364	3	1	21
+3	1	North	11068	Paragon	1051	1	2	1
+3	2	North	9225	Katja	882	1	2	2
+3	3	North	2184	"Kaz 95 18-02P-33"	1264	1	2	3
+3	4	North	2053	"Kaz 95 18-11"	113	1	2	4
+3	5	North	4211	"KAR 29"	1225	1	2	5
+3	6	North	6037	"Bella de Jardins"	507	1	2	6
+3	7	North	11182	Quindell	1088	1	2	7
+3	8	North	5012	Blauacher	391	1	2	8
+3	9	North	8324	"Loop Giant Spy"	804	1	2	9
+3	10	North	1031	Rouville	11	1	2	10
+3	11	North	11176	"Pomme Grise"	1086	1	2	11
+3	12	North	5234	"Coat Jersey"	465	1	2	12
+3	13	North	12019	Sharon	1146	1	2	13
+3	14	North	4310	Ballyfatten	377	1	2	14
+3	15	North	8129	Honeygold	739	1	2	15
+3	16	North	8028	"King Harry"	705	1	2	16
+3	17	North	1035	Moira	12	1	2	17
+3	18	North	8159	"Kandil Kitaika"	749	1	2	18
+3	19	North	2249	"James Grieve (Red Rosamund strain)"	150	1	2	19
+3	20	North	1286	S47-20-037	94	1	2	20
+3	21	North	8055	Gewurzluiken	714	1	2	21
+3	22	North	11062	"Magnolia Gold"	1049	2	2	1
+3	23	North	5204	Caillouett	455	2	2	2
+3	24	North	10083	"Reinette do Chenee"	941	2	2	3
+3	25	North	1211	Blackmac	70	2	2	4
+3	26	North	6068	Barry	517	2	2	5
+3	27	North	10055	Paulista	932	2	2	6
+3	28	North	5259	"Crimson King"	473	2	2	7
+3	29	North	1163	8S-26-52	54	2	2	8
+3	30	North	5291	Camuzat	484	2	2	9
+3	31	North	4307	"Early Bird Red"	376	2	2	10
+3	32	North	10067	Ranger	936	2	2	11
+3	33	North	5240	"Doux Tardif"	467	2	2	12
+3	34	North	11276	Quastresse	1119	2	2	13
+3	35	North	8064	Garrison	717	2	2	14
+3	36	North	4109	"KAR 82"	316	2	2	15
+3	37	North	9298	"Geneva Ontario"	905	2	2	16
+3	38	North	4262	"KAR 31"	361	2	2	17
+3	39	North	9163	"Lemon Pippin"	861	2	2	18
+3	40	North	9189	Langworthy	870	2	2	19
+3	41	North	2149	"Kaz 95 07-02"	128	2	2	20
+3	42	North	5027	"Crow Egg"	396	3	2	1
+3	43	North	11089	"Peck Pleasant"	1058	3	2	2
+3	44	North	3056	Surprise	192	3	2	3
+3	45	North	3289	"KAS 60"	260	3	2	4
+3	46	North	10193	Macoun	1229	3	2	5
+3	47	North	1328	"KAZ 96 01-01P-20"	1278	3	2	6
+3	48	North	4328	"Black Crofton"	383	3	2	7
+3	49	North	9102	Kinsei	841	3	2	8
+3	50	North	11107	"Reinette Thouin"	1063	3	2	9
+3	51	North	11294	"Reinette van Ekenstein"	1125	3	2	10
+3	52	North	11237	"Red Spitzenburg"	1106	3	2	11
+3	53	North	10220	Minnehaha	986	3	2	12
+3	54	North	9216	Gallen	879	3	2	13
+3	55	North	10304	"Paide's Winter Apple"	1014	3	2	14
+3	56	North	4037	"KAS 47"	1226	3	2	15
+3	57	North	9318	"Fenouillet Gris"	912	3	2	16
+3	58	North	11233	"Reinette Jaeghers"	1105	3	2	17
+3	59	North	13064	Shawnee	1209	3	2	18
+3	60	North	12115	Slocan	1177	3	2	19
+3	61	North	6209	Bramley	562	3	2	20
+3	62	North	1171	Zestar	56	3	2	21
+5	1	North	1203	Elstar	67	1	3	1
+5	2	North	3208	"Pink Lady"	235	1	3	2
+5	3	North	2332	"KAZ 96 07-07"	1288	1	3	3
+5	4	North	6236	Amelia	571	1	3	4
+5	5	North	1187	Redfree	62	1	3	5
+5	6	North	11224	"Malling Kent"	1102	1	3	6
+5	7	North	11053	"Pommier Llorca"	1046	1	3	7
+5	8	North	4002	"KAS 63"	283	1	3	8
+5	9	North	2236	"KAZ 96 06-03"	147	1	3	9
+5	10	North	8018	Holland	702	1	3	10
+5	11	North	1089	Richelieu	30	1	3	11
+5	12	North	2135	"KAZ 96 06-01P-26"	124	1	3	12
+5	13	North	5147	"American Forestier"	436	1	3	13
+5	14	North	7215	S16-06-72	662	1	3	14
+5	15	North	8213	Livadiyskoye	767	1	3	15
+5	16	North	12002	Stafford	1140	1	3	16
+5	17	North	8259	Harcourt	782	1	3	17
+5	18	North	10298	Murasaki	1012	1	3	18
+5	19	North	6146	"Arkad Zimnyi"	541	1	3	19
+5	20	North	4115	Macoun	1228	1	3	20
+5	21	North	7110	S47-25-05	630	1	3	21
+5	22	North	1122	"SJC 649"	41	2	3	1
+5	23	North	1307	"Kaz 95 05-01P-5"	1246	2	3	2
+5	24	North	4154	"KAR 52"	329	2	3	3
+5	25	North	4113	"KAR 98"	317	2	3	4
+5	26	North	11284	Melon	1122	2	3	5
+5	27	North	10106	Malinda	949	2	3	6
+5	28	North	12140	"San Jacinto"	1185	2	3	7
+5	29	North	10310	"Monmouth Beauty"	1016	2	3	8
+5	30	North	8318	"Hendrick Sweet"	802	2	3	9
+5	31	North	10253	"Renet Bergamotnyj"	997	2	3	10
+5	32	North	7246	S38-03-25	672	2	3	11
+5	33	North	12067	"Zimnieje Piervoskhodnoie"	1162	2	3	12
+5	34	North	5033	Carroll	398	2	3	13
+5	35	North	8123	Greendale	737	2	3	14
+5	36	North	2296	"Oelsen 2 x Hartmann-Muhle 1"	165	2	3	15
+5	37	North	1292	"Reinet Russet"	96	2	3	16
+5	38	North	10163	Regent	968	2	3	17
+5	39	North	1331	"Kaz 95 05-01P-26"	102	2	3	18
+5	40	North	11012	Nanny	1032	2	3	19
+5	41	North	8331	"Honey Ball"	806	2	3	20
+5	42	North	13034	"Stahls Prinz"	1199	3	3	1
+5	43	North	6217	Brunnsapple	565	3	3	2
+5	44	North	10018	"Rouge Belle de Boskoop"	919	3	3	3
+5	45	North	1326	"KAZ 96 03-11"	101	3	3	4
+5	46	North	2194	Cortland	134	3	3	5
+5	47	North	11263	"Narjadnoye Crysmskoye"	1115	3	3	6
+5	48	North	8177	Karmijn	755	3	3	7
+5	49	North	7263	S38-04-11	678	3	3	8
+5	50	North	9108	"Erwin Bauer"	843	3	3	9
+5	51	North	10209	"Reid's Seedling"	982	3	3	10
+5	52	North	7287	S10-13-28	686	3	3	11
+5	53	North	7275	S19-33-04	682	3	3	12
+5	54	North	5019	"Directeur Lesage"	393	3	3	13
+5	55	North	4214	"KAR 38"	346	3	3	14
+5	56	North	2263	Baldwin	155	3	3	15
+5	57	North	3052	Burgundy	191	3	3	16
+5	58	North	4049	"KAS 79"	297	3	3	17
+5	59	North	11209	"Oratia Beauty"	1097	3	3	18
+5	60	North	12055	Tasty	1158	3	3	19
+5	61	North	9279	Kosmonaut	899	3	3	20
+5	62	North	1184	Piflora	61	3	3	21
+7	1	North	9062	Ermak	827	1	4	1
+7	2	North	4073	"KAR 83"	304	1	4	2
+7	3	North	4067	Orangutang	303	1	4	3
+7	4	North	4136	"KAR 114"	323	1	4	4
+7	5	North	6220	Benham	566	1	4	5
+7	6	North	11057	"No Blow"	1047	1	4	6
+7	7	North	10217	Potter	985	1	4	7
+7	8	North	1193	Pia	64	1	4	8
+7	9	North	1100	SJCXN982	34	1	4	9
+7	10	North	2002	"Kaz 95 18-02P-30"	103	1	4	10
+7	11	North	10187	Primus	976	1	4	11
+7	12	North	6136	"Clear Gold"	538	1	4	12
+7	13	North	8165	"Krievu Rosmarins"	751	1	4	13
+7	14	North	5183	"Black Oxford"	448	1	4	14
+7	15	North	1112	NY65707-19	38	1	4	15
+7	16	North	8090	"Lombart's Calville"	726	1	4	16
+7	17	North	5006	Bonza	389	1	4	17
+7	18	North	1181	Pinova	60	1	4	18
+7	19	North	1161	"SPA 505"	53	1	4	19
+7	20	North	7254	S19-23-52	675	1	4	20
+7	21	North	1172	McIntosh	57	1	4	21
+7	22	North	5207	"Coconut Crunch"	456	2	4	1
+7	23	North	1010	Florina	4	2	4	2
+7	24	North	6011	"Belle Fleur de France"	499	2	4	3
+7	25	North	8100	Kendall	729	2	4	4
+7	26	North	6191	Battleford	556	2	4	5
+7	27	North	5168	"Blahova Ruzena"	443	2	4	6
+7	28	North	3181	"Rome Beauty Law"	226	2	4	7
+7	29	North	7177	S23-02-350	650	2	4	8
+7	30	North	2137	"Kaz 95 05-01P-3"	1244	2	4	9
+7	31	North	3288	"KAS 53"	259	2	4	10
+7	32	North	9132	"Johannes Bottner"	851	2	4	11
+7	33	North	11080	"Red Joaneting"	1055	2	4	12
+7	34	North	10098	"Middleton Fameuse"	946	2	4	13
+7	35	North	9115	"Howgate Wonder"	845	2	4	14
+7	36	North	4124	"KAR 99"	319	2	4	15
+7	37	North	3001	"Mollie's Delicious"	177	2	4	16
+7	38	North	11087	Malabols	1057	2	4	17
+7	39	North	2023	"Kaz 95 18-02P-20"	108	2	4	18
+7	40	North	4217	"KAR 32"	347	2	4	19
+7	41	North	3128	"KAZ 96 07-06"	1286	2	4	20
+7	42	North	5141	Blaxtayman	434	3	4	1
+7	43	North	1265	S47-20-005	87	3	4	2
+7	44	North	2284	"FORM 181 (35-01)"	161	3	4	3
+7	45	North	5270	"Daux Belan"	477	3	4	4
+7	46	North	1001	Jonafree	1	3	4	5
+7	47	North	1176	"Ginger gold"	58	3	4	6
+7	48	North	4022	"KAS 69"	290	3	4	7
+7	49	North	6106	"Ashmead's Kernel"	529	3	4	8
+7	50	North	9275	Greensleeves	1222	3	4	9
+7	51	North	11023	"Purpurroter Cousinot"	1036	3	4	10
+7	52	North	5232	Brunnerling	464	3	4	11
+7	53	North	4277	"Bulmer Norman"	366	3	4	12
+7	54	North	10328	"March #1"	1022	3	4	13
+7	55	North	8045	Leyda	711	3	4	14
+7	56	North	1017	Judaine	6	3	4	15
+7	57	North	8193	King	760	3	4	16
+7	58	North	6031	Alkmene	505	3	4	17
+7	59	North	10085	Mucina	942	3	4	18
+7	60	North	4331	"Chenango Strawberry"	384	3	4	19
+7	61	North	1316	"Kaz 95 18-02P-6"	1266	3	4	20
+7	62	North	6159	"Bongkushu (880626)"	545	3	4	21
+9	1	North	8180	Erickson	756	1	5	1
+9	2	North	8240	Fillbarrel	776	1	5	2
+9	3	North	4010	"KAS 77"	286	1	5	3
+9	4	North	6166	"Belle de Boskoop"	548	1	5	4
+9	5	North	11239	"Potter Cox"	1107	1	5	5
+9	6	North	3133	"Ein Shemer"	212	1	5	6
+9	7	North	1223	"Sir Prize"	74	1	5	7
+9	8	North	4187	"KAR 1"	340	1	5	8
+9	9	North	13019	Sylvia	1194	1	5	9
+9	10	North	2083	"Kaz 95 05-01P-25"	118	1	5	10
+9	11	North	1298	"INR 3318"	98	1	5	11
+9	12	North	4151	"KAS 39"	328	1	5	12
+9	13	North	7260	S38-03-28	677	1	5	13
+9	14	North	9009	Glenorchie	810	1	5	14
+9	15	North	6278	"Canada Grise"	583	1	5	15
+9	16	North	2212	"Rambo-Red Summer"	140	1	5	16
+9	17	North	1143	"Red Delicious"	48	1	5	17
+9	18	North	7185	S47-25-82	653	1	5	18
+9	19	North	6170	Blaze	549	1	5	19
+9	20	North	2143	"Kaz 95 05-01P-16"	126	1	5	20
+9	21	North	11143	"Rambourg d'Automme"	1075	1	5	21
+9	22	North	9039	Keuleman	820	2	5	1
+9	23	North	10154	Paradiso	965	2	5	2
+9	24	North	1128	Rubinette	43	2	5	3
+9	25	North	1052	Generos	18	2	5	4
+9	26	North	3263	Red-Del-Stark	251	2	5	5
+9	27	North	2269	"Korichnoe Polosatoje"	157	2	5	6
+9	28	North	13052	"St. Anna Rode Boskoop"	1205	2	5	7
+9	29	North	6103	Balancier	1240	2	5	8
+9	30	North	3019	"Ozark Gold"	182	2	5	9
+9	31	North	11221	"Reineta do Caravia"	1101	2	5	10
+9	32	North	2029	"Kaz 95 10-01L"	110	2	5	11
+9	33	North	1205	Rewina	68	2	5	12
+9	34	North	3094	"Hartmann-Muhle 1 x Oberwartha 2"	202	2	5	13
+9	35	North	10031	"Oliver or Senator"	924	2	5	14
+9	36	North	11323	"Suislepas Rozabols"	1135	2	5	15
+9	37	North	1085	"Ottawa 654"	29	2	5	16
+9	38	North	4100	"KAS 64"	313	2	5	17
+9	39	North	10161	Norland	967	2	5	18
+9	40	North	4242	"KAS 19"	355	2	5	19
+9	41	North	3109	Gala	205	2	5	20
+9	42	North	9258	"Kardinal Bea"	893	3	5	1
+9	43	North	2165	"KAZ 96 09-01P-4"	130	3	5	2
+9	44	North	8312	"Merton 778"	800	3	5	3
+9	45	North	2129	"KAZ 96 08-01P-37"	1291	3	5	4
+9	46	North	4271	"KAR 23"	364	3	5	5
+9	47	North	9112	Eickhoff	844	3	5	6
+9	48	North	11305	Smordodina	1129	3	5	7
+9	49	North	6187	"Black Gilliflower"	555	3	5	8
+9	50	North	7168	S47-23-82	647	3	5	9
+9	51	North	9246	"Isayev's Desertnyi"	889	3	5	10
+9	52	North	5075	Edelborsdorfer	412	3	5	11
+9	53	North	10003	Milwaukee	1230	3	5	12
+9	54	North	5091	"Early Harvest"	417	3	5	13
+9	55	North	11170	"Paides Ziemas Abols"	1084	3	5	14
+9	56	North	8249	Jefferis	779	3	5	15
+9	57	North	11122	"Red Ralls"	1068	3	5	16
+9	58	North	2221	"Ingrid Marie"	143	3	5	17
+9	59	North	8013	S16-15-106	700	3	5	18
+9	60	North	7221	S19-25-36	664	3	5	19
+9	61	North	8202	"Grosse Mouche"	763	3	5	20
+9	62	North	1028	Vanda	10	3	5	21
+11	1	North	3233	MN1849	241	1	6	1
+11	2	North	5024	Alton	395	1	6	2
+11	3	North	4229	"KAR 5"	351	1	6	3
+11	4	North	11113	Pewaukee	1065	1	6	4
+11	5	North	6085	"Crown Prince Rudolf"	523	1	6	5
+11	6	North	9075	"Flower of Kent"	832	1	6	6
+11	7	North	5003	"Belle Imperiale"	388	1	6	7
+11	8	North	9144	Euzia	855	1	6	8
+11	9	North	6295	"Reine des Reinettes"	588	1	6	9
+11	10	North	9312	"Jaune lu Desert"	910	1	6	10
+11	11	North	13016	"Royale d'Angleterre"	1193	1	6	11
+11	12	North	5117	"Claudius Herbstapfel"	426	1	6	12
+11	13	North	9289	"Freiherr Von Berlepsch"	902	1	6	13
+11	14	North	2266	"Cherry Cox"	156	1	6	14
+11	15	North	2152	"Kaz 95 09-03F"	129	1	6	15
+11	16	North	6022	Cartigny	502	1	6	16
+11	17	North	13025	Suislepper	1196	1	6	17
+11	18	North	2012	"KAZ 96 07-01P-24"	106	1	6	18
+11	19	North	7209	S29-13-105	660	1	6	19
+11	20	North	1271	Galarina	89	1	6	20
+11	21	North	6016	"Apfel aus Grunheide"	500	1	6	21
+11	22	North	12137	Sensacion	1184	2	6	1
+11	23	North	9058	Goldsmith	826	2	6	2
+11	24	North	1037	"INR 6407"	13	2	6	3
+11	25	North	9012	"Litevsky Jadernac"	811	2	6	4
+11	26	North	8228	"Kitaika Zolotaia Ranniaia"	772	2	6	5
+11	27	North	4209	"KAR 28"	1224	2	6	6
+11	28	North	12109	Tioga	1175	2	6	7
+11	29	North	6101	"Dunkerton Late Sweet"	528	2	6	8
+11	30	North	4280	"Collins June"	367	2	6	9
+11	31	North	3205	Iwakami	234	2	6	10
+11	32	North	11333	"Yellow Arkad"	1138	2	6	11
+11	33	North	4163	"KAS 44"	332	2	6	12
+11	34	North	7135	S23-04-570	638	2	6	13
+11	35	North	10271	Potomac	1003	2	6	14
+11	36	North	9267	Gilliflower	896	2	6	15
+11	37	North	5031	"Bushy Grove"	397	2	6	16
+11	38	North	3217	"SJC A 37+"	237	2	6	17
+11	39	North	9252	Khashabi	891	2	6	18
+11	40	North	5267	Antonovka	476	2	6	19
+11	41	North	5136	Earliblaze	432	2	6	20
+11	42	North	8204	"Feys Record"	764	3	6	1
+11	43	North	1133	Melrose	45	3	6	2
+11	44	North	2017	"Kaz 95 18-08"	107	3	6	3
+11	45	North	5246	"Amur Naliv"	469	3	6	4
+11	46	North	3013	"GMAL 3310"	180	3	6	5
+11	47	North	3178	Idared	225	3	6	6
+11	48	North	10127	"Repinaldo do Liebana"	956	3	6	7
+11	49	North	6163	Beatrix	547	3	6	8
+11	50	North	2140	"KAZ 96 07-08"	125	3	6	9
+11	51	North	3113	Idagold	206	3	6	10
+11	52	North	5093	Anisim	418	3	6	11
+11	53	North	5111	"Bessemianka Michurina"	424	3	6	12
+11	54	North	1118	Braeburn	40	3	6	13
+11	55	North	8067	"Jan Steen"	718	3	6	14
+11	56	North	3310	"KAS 72"	267	3	6	15
+11	57	North	7057	S47-21-32	612	3	6	16
+11	58	North	3307	"KAR 103"	266	3	6	17
+11	59	North	2254	"Kimball McIntosh 2-4-4-4"	152	3	6	18
+11	60	North	3329	"KAR 90"	273	3	6	19
+11	61	North	8210	Guldborg	766	3	6	20
+11	62	North	1127	Rubinette	43	3	6	21
+13	1	North	8236	Lakeland	774	1	7	1
+13	2	North	9156	"Egri Piros"	859	1	7	2
+13	3	North	1058	"Romus 3"	20	1	7	3
+13	4	North	5060	"Dermen Black Stayman"	407	1	7	4
+13	5	North	8300	Goldjon	796	1	7	5
+13	6	North	4085	"KAS 40"	308	1	7	6
+13	7	North	3175	Spartan	224	1	7	7
+13	8	North	11278	"Michaelmas Red"	1120	1	7	8
+13	9	North	4256	"KAR 26"	359	1	7	9
+13	10	North	3202	MN1802	233	1	7	10
+13	11	North	11296	"Rambour Franc"	1126	1	7	11
+13	12	North	7108	S47-25-51	629	1	7	12
+13	13	North	8294	"Frequin Tardive de la Sarthe"	794	1	7	13
+13	14	North	2344	"KAZ 96 07-03"	1284	1	7	14
+13	15	North	5252	"Deacon Jones"	471	1	7	15
+13	16	North	9097	"Koidu Renett"	839	1	7	16
+13	17	North	11245	Mother	1109	1	7	17
+13	18	North	9304	"Imperial Stayman"	907	1	7	18
+13	19	North	1079	NA	27	1	7	19
+13	20	North	8309	"Gibbs Golden Gage"	799	1	7	20
+13	21	North	13013	"Saivanskaiya(Apple-Tree From Saivan)"	1192	1	7	21
+13	22	North	4283	Amri	368	2	7	1
+13	23	North	8237	Karastojanka	775	2	7	2
+13	24	North	3082	"KAZ 96 05-05"	1282	2	7	3
+13	25	North	8315	"Liestnaya Antonoffku"	801	2	7	4
+13	26	North	11290	"Red Dougherty"	1124	2	7	5
+13	27	North	5139	"Captain Kidd"	433	2	7	6
+13	28	North	1029	Vanda	10	2	7	7
+13	29	North	12052	"Spur Winter Banana"	1157	2	7	8
+13	30	North	2056	"Kaz 95 06-04"	1248	2	7	9
+13	31	North	10232	"Muscadet de Dieppe"	990	2	7	10
+13	32	North	10200	"Peau d'Ane"	979	2	7	11
+13	33	North	9069	"Golden Noble"	830	2	7	12
+13	34	North	10052	Orei	931	2	7	13
+13	35	North	5237	Chieftain	466	2	7	14
+13	36	North	1019	Novaspy	7	2	7	15
+13	37	North	7122	S47-12-67	634	2	7	16
+13	38	North	12085	"Yellow Bellflower"	1167	2	7	17
+13	39	North	11038	"Marin Onfroy"	1041	2	7	18
+13	40	North	3097	Virginiagold	203	2	7	19
+13	41	North	5318	"Anis Aliy K-32"	493	2	7	20
+13	42	North	11140	"Peau de Vache"	1074	3	7	1
+13	43	North	4040	"KAR 102"	295	3	7	2
+13	44	North	8261	"Gallia Beauty"	783	3	7	3
+13	45	North	4097	"Crimson Gold"	312	3	7	4
+13	46	North	11189	"Reneta Woskowa"	1090	3	7	5
+13	47	North	9045	Hermann	822	3	7	6
+13	48	North	8111	"Golden Harvey"	733	3	7	7
+13	49	North	7068	S41-11-03	616	3	7	8
+13	50	North	11204	"Mr. Prothero"	1095	3	7	9
+13	51	North	2185	"Rhode Island Greening"	131	3	7	10
+13	52	North	9180	Iunost	867	3	7	11
+13	53	North	5222	"Beauty of Bath"	461	3	7	12
+13	54	North	9262	"John Standish"	894	3	7	13
+13	55	North	7314	"Ottawa 533"	695	3	7	14
+13	56	North	3337	"KAS 59"	276	3	7	15
+13	57	North	9054	Garland	825	3	7	16
+13	58	North	4013	"KAS 61"	287	3	7	17
+13	59	North	3349	"KAR 94"	280	3	7	18
+13	60	North	1335	"Kaz 95 05-01P-22"	1242	3	7	19
+13	61	North	12100	"Uralskoje Nalivnoje"	1172	3	7	20
+13	62	North	4117	Macoun	1228	3	7	21
+15	1	North	6234	"Bowden Seedling"	570	1	8	1
+15	2	North	5022	"American Summer Pearmain"	394	1	8	2
+15	3	North	13125	SweeTango	1232	1	8	3
+15	4	North	7204	S29-08-17	658	1	8	4
+15	5	North	1250	Remura	82	1	8	5
+15	6	North	5010	"Aargauer Jubilaums"	390	1	8	6
+15	7	North	10139	Princesa	960	1	8	7
+15	8	North	8243	"Field Spy"	777	1	8	8
+15	9	North	6269	GA6132	580	1	8	9
+15	10	North	9210	Eurika	877	1	8	10
+15	11	North	2051	"Kaz 95 10-05F"	112	1	8	11
+15	12	North	3064	"Poeltsamaa Winter Apple"	195	1	8	12
+15	13	North	6083	"Cheal's Golden Gem"	522	1	8	13
+15	14	North	5130	"Devonshire Quarrenden"	430	1	8	14
+15	15	North	3304	"KAS 58"	265	1	8	15
+15	16	North	10100	Paraquet	947	1	8	16
+15	17	North	7272	S38-06-140	681	1	8	17
+15	18	North	10331	"Merton Beauty"	1023	1	8	18
+15	19	North	3295	Chehalis	262	1	8	19
+15	20	North	6058	Dakota	514	1	8	20
+15	21	North	5315	Beforest	492	1	8	21
+15	22	North	3085	"Barenhecke 3 x Klipphausen"	199	2	8	1
+15	23	North	6157	"Bongkushu (880626)"	545	2	8	2
+15	24	North	12007	"Saltcote Pipin"	1142	2	8	3
+15	25	North	4161	"KAS 48"	331	2	8	4
+15	26	North	10077	"Merton Delight"	939	2	8	5
+15	27	North	8286	"Hotle Rome"	791	2	8	6
+15	28	North	2077	"Kaz 95 18-06"	117	2	8	7
+15	29	North	11014	Marachal	1033	2	8	8
+15	30	North	1208	Regine	69	2	8	9
+15	31	North	7017	S47-23-22	602	2	8	10
+15	32	North	9079	Hoover	833	2	8	11
+15	33	North	6143	Dukat	540	2	8	12
+15	34	North	5244	"Ananas Berzenicki"	468	2	8	13
+15	35	North	1137	"8C 18 30"	46	2	8	14
+15	36	North	11129	Nanot	1070	2	8	15
+15	37	North	3211	Kogetsu	236	2	8	16
+15	38	North	1055	"Crimson Crisp"	19	2	8	17
+15	39	North	5273	"Bob White"	478	2	8	18
+15	40	North	1008	Enterprise	3	2	8	19
+15	41	North	5174	Atlas	445	2	8	20
+15	42	North	10226	"Reveles Bumbierabols"	988	3	8	1
+15	43	North	10094	"Pomme Thoury"	945	3	8	2
+15	44	North	12005	Tilsith	1141	3	8	3
+15	45	North	6298	Princesse	589	3	8	4
+15	46	North	6002	Bemali	496	3	8	5
+15	47	North	9030	Kile	817	3	8	6
+15	48	North	11251	"Red Astrachan"	1111	3	8	7
+15	49	North	10004	Lyons	915	3	8	8
+15	50	North	11020	Nubeena	1035	3	8	9
+15	51	North	4298	"C.P. Close"	373	3	8	10
+15	52	North	9027	Jonared	816	3	8	11
+15	53	North	6055	Anoka	513	3	8	12
+15	54	North	8030	"King Cole"	706	3	8	13
+15	55	North	4044	"KAR 101"	296	3	8	14
+15	56	North	4235	"KAS 45"	353	3	8	15
+15	57	North	6238	Baxter	572	3	8	16
+15	58	North	7206	S23-04-05	659	3	8	17
+15	59	North	4103	"KAS 56"	314	3	8	18
+15	60	North	11281	"Manche Rouge"	1121	3	8	19
+15	61	North	1263	"SJC 686-1"	86	3	8	20
+15	62	North	4068	Orangutang	303	3	8	21
+17	1	North	10007	"Morden 363"	916	1	9	1
+17	2	North	7152	S29-13-73	643	1	9	2
+17	3	North	10259	Muz-alma	999	1	9	3
+17	4	North	2191	"Banon's Seedling"	133	1	9	4
+17	5	North	7008	S47-25-41	599	1	9	5
+17	6	North	10319	"Red Dijmanszoet"	1019	1	9	6
+17	7	North	5133	Arkansas	431	1	9	7
+17	8	North	5310	"Benitts Roter Finkenwerde"	490	1	9	8
+17	9	North	8219	Galicia	769	1	9	9
+17	10	North	11167	"Reinette d' Anjou"	1083	1	9	10
+17	11	North	10037	Oswego	926	1	9	11
+17	12	North	6260	Astrachan	578	1	9	12
+17	13	North	9123	"Jakob Fischer"	848	1	9	13
+17	14	North	10146	"Mleevskaya Crasavitsa"	962	1	9	14
+17	15	North	9192	Honora	871	1	9	15
+17	16	North	5082	"Alnarp 2"	414	1	9	16
+17	17	North	7200	S47-23-52	657	1	9	17
+17	18	North	5126	"Belle de Crollon"	429	1	9	18
+17	19	North	1130	"SJCA 16R5A15"	44	1	9	19
+17	20	North	4334	Bonum	385	1	9	20
+17	21	North	10170	"Ottawa 546"	970	1	9	21
+17	22	North	5198	Canavial-14	453	2	9	1
+17	23	North	6178	Diana	552	2	9	2
+17	24	North	6232	"Bowden Seedling"	570	2	9	3
+17	25	North	3187	"Reinette Russet"	228	2	9	4
+17	26	North	8142	Liaofu	743	2	9	5
+17	27	North	1220	Trent	73	2	9	6
+17	28	North	11185	Ogden	1089	2	9	7
+17	29	North	13023	Sunset	1195	2	9	8
+17	30	North	4175	"KAR 2"	336	2	9	9
+17	31	North	5180	"Creamy Kitaika"	447	2	9	10
+17	32	North	4202	"KAR 36"	344	2	9	11
+17	33	North	6133	"Binet Rouge"	537	2	9	12
+17	34	North	10262	"Paradis do Vayre"	1000	2	9	13
+17	35	North	3091	"KAZ 96 07-04"	201	2	9	14
+17	36	North	1169	Zestar	56	2	9	15
+17	37	North	10088	"Red Canada"	943	2	9	16
+17	38	North	3278	Boughsweet	256	2	9	17
+17	39	North	4337	"Coombs Wealthy"	386	2	9	18
+17	40	North	5036	Cleopatra	399	2	9	19
+17	41	North	4157	"KAR 92"	330	2	9	20
+17	42	North	4304	"Dekkers Glorie"	375	3	9	1
+17	43	North	13082	Vogelcalville	1215	3	9	2
+17	44	North	8150	Gladstone	746	3	9	3
+17	45	North	2327	Niedzwetzkyana	1301	3	9	4
+17	46	North	11125	"McClintock Grimes"	1069	3	9	5
+17	47	North	1244	"SJC 8428-2"	80	3	9	6
+17	48	North	10070	"Ohio Nonpareil"	937	3	9	7
+17	49	North	10121	"Quebec Belle"	954	3	9	8
+17	50	North	1319	"KAZ 96 09-01P-2"	1294	3	9	9
+17	51	North	10046	Montgomery	929	3	9	10
+17	52	North	1095	Shizuka	32	3	9	11
+17	53	North	10019	"Ottawa 274"	920	3	9	12
+17	54	North	13005	"Worcester Pearmain"	1189	3	9	13
+17	55	North	8231	Korobovka	773	3	9	14
+17	56	North	3061	"Spokane Beauty"	194	3	9	15
+17	57	North	2014	"Kaz 95 09-05F"	1256	3	9	16
+17	58	North	9186	Foxwhelp	869	3	9	17
+17	59	North	5195	Britemac	452	3	9	18
+17	60	North	1248	Freedom	81	3	9	19
+17	61	North	5156	"Blenheim Orange"	439	3	9	20
+17	62	North	10048	Montgomery	929	3	9	21
+1	1	South	11262	Oldenburg	1114	1	1	1
+1	2	South	10128	"Repinaldo do Liebana"	956	1	1	2
+1	3	South	8169	"Hua Guan"	752	1	1	3
+1	4	South	10248	Mantet	995	1	1	4
+1	5	South	8080	"Golden Winesap"	722	1	1	5
+1	6	South	1042	"CBR 4T 29"	14	1	1	6
+1	7	South	4240	"KAR 17"	354	1	1	7
+1	8	South	1330	"KAZ 96 01-01P-20"	1278	1	1	8
+1	9	South	2016	"Kaz 95 09-05F"	1256	1	1	9
+1	10	South	3042	"Finson's Orange"	187	1	1	10
+1	11	South	12054	"Spur Winter Banana"	1157	1	1	11
+1	12	South	2189	"KAZ 96 01-03"	132	1	1	12
+1	13	South	11199	Mio	1093	1	1	13
+1	14	South	10120	Patul	953	1	1	14
+1	15	South	1074	"Co-op 28"	25	1	1	15
+1	16	South	2145	"Kaz 95 05-01P-16"	126	1	1	16
+1	17	South	5296	Caravel	485	1	1	17
+1	18	South	3149	"Gravenstein Washington Red"	216	1	1	18
+1	19	South	12036	Wainwright	1151	1	1	19
+1	20	South	6321	S47-21-33	594	1	1	20
+1	21	South	10320	"Red Dijmanszoet"	1019	1	1	21
+1	22	South	7181	S23-03-749	651	2	1	1
+1	23	South	10291	Pixie	1009	2	1	2
+1	24	South	10006	Lyons	915	2	1	3
+1	25	South	10011	"Rosu de Cluj"	917	2	1	4
+1	26	South	13066	Shawnee	1209	2	1	5
+1	27	South	1333	"Kaz 95 05-01P-26"	102	2	1	6
+1	28	South	1189	Redfree	62	2	1	7
+1	29	South	9296	Jouveaux	904	2	1	8
+1	30	South	13018	"Royale d'Angleterre"	1193	2	1	9
+1	31	South	11054	"Pommier Llorca"	1046	2	1	10
+1	32	South	1281	"Cotton Candy"	92	2	1	11
+1	33	South	6266	S29-13-72	579	2	1	12
+1	34	South	9319	"Fenouillet Gris"	912	2	1	13
+1	35	South	11151	Puregold	1077	2	1	14
+1	36	South	4158	"KAR 92"	330	2	1	15
+1	37	South	4260	"KAS 7"	360	2	1	16
+1	38	South	7133	S20-07-41	637	2	1	17
+1	39	South	5287	"Court Royal"	482	2	1	18
+1	40	South	11139	Nugget	1073	2	1	19
+1	41	South	11042	"Roter Eiserapfel"	1042	2	1	20
+1	42	South	2151	"Kaz 95 07-02"	128	3	1	1
+1	43	South	2058	"Kaz 95 06-04"	1248	3	1	2
+1	44	South	3048	"Pink Pearl"	189	3	1	3
+1	45	South	9209	"Lane's Prince Albert"	876	3	1	4
+1	46	South	1069	Rebella	23	3	1	5
+1	47	South	8065	Garrison	717	3	1	6
+1	48	South	11118	Mingan	1066	3	1	7
+1	49	South	7144	S23-03-20	641	3	1	8
+1	50	South	8143	Liaofu	743	3	1	9
+1	51	South	10342	"Noel Deschamps"	1026	3	1	10
+1	52	South	13068	Smokehouse	1210	3	1	11
+1	53	South	4281	"Collins June"	367	3	1	12
+1	54	South	7164	S23-06-129	1237	3	1	13
+1	55	South	6012	"Belle Fleur de France"	499	3	1	14
+1	56	South	10075	"Red Paducah"	938	3	1	15
+1	57	South	4308	"Early Bird Red"	376	3	1	16
+1	58	South	7010	S47-25-41	599	3	1	17
+1	59	South	3173	Haralson	223	3	1	18
+1	60	South	3107	Anna	204	3	1	19
+1	61	South	8095	"Lord Lambourne"	727	3	1	20
+1	62	South	11155	"Northern Lights"	1079	3	1	21
+3	1	South	1231	Redstarkingvale	76	1	2	1
+3	2	South	4063	"KAR 107"	301	1	2	2
+3	3	South	1311	"Kaz 95 18-14"	1276	1	2	3
+3	4	South	11067	Notaire	1050	1	2	4
+3	5	South	2028	"Kaz 95 06-01"	109	1	2	5
+3	6	South	2022	"Kaz 95 18-05"	1272	1	2	6
+3	7	South	3096	"Hartmann-Muhle 1 x Oberwartha 2"	202	1	2	7
+3	8	South	1168	McShay	55	1	2	8
+3	9	South	11205	"Mr. Prothero"	1095	1	2	9
+3	10	South	5083	"Alnarp 2"	414	1	2	10
+3	11	South	3134	"Ein Shemer"	212	1	2	11
+3	12	South	9067	"Keegan's Crab"	829	1	2	12
+3	13	South	3191	"Prime Red"	229	1	2	13
+3	14	South	5161	"Court Pendu"	440	1	2	14
+3	15	South	4170	"KAS 41"	334	1	2	15
+3	16	South	6300	Princesse	589	1	2	16
+3	17	South	3245	Akane	245	1	2	17
+3	18	South	3243	"KAS 21"	244	1	2	18
+3	19	South	4075	"KAR 83"	304	1	2	19
+3	20	South	4090	"KAS 54"	309	1	2	20
+3	21	South	6291	"Ottawa 381"	586	1	2	21
+3	22	South	11010	"Malt Bagaevskii"	1031	2	2	1
+3	23	South	6158	"Bongkushu (880626)"	545	2	2	2
+3	24	South	12096	Trebu	1170	2	2	3
+3	25	South	5142	Blaxtayman	434	2	2	4
+3	26	South	5059	"Bisbee Giant Winesap"	406	2	2	5
+3	27	South	11235	"Reinette Jaeghers"	1105	2	2	6
+3	28	South	10210	"Reid's Seedling"	982	2	2	7
+3	29	South	10021	"Ottawa 274"	920	2	2	8
+3	30	South	5313	Carlton	491	2	2	9
+3	31	South	1177	"Ginger gold"	58	2	2	10
+3	32	South	5265	"Chiver's Delight"	475	2	2	11
+3	33	South	3011	"Yellow Transparent"	179	2	2	12
+3	34	South	9166	"Hubbardston Nonsuch"	862	2	2	13
+3	35	South	4069	Orangutang	303	2	2	14
+3	36	South	5007	Bonza	389	2	2	15
+3	37	South	4188	"KAR 1"	340	2	2	16
+3	38	South	2288	"Antonovka Kamenichka"	162	2	2	17
+3	39	South	1015	Liberty	5	2	2	18
+3	40	South	7238	"Ottawa 637"	669	2	2	19
+3	41	South	7169	S47-23-82	647	2	2	20
+3	42	South	10066	"Red Baron"	935	3	2	1
+3	43	South	7103	S42-48-06	627	3	2	2
+3	44	South	6240	Baxter	572	3	2	3
+3	45	South	4273	"KAR 23"	364	3	2	4
+3	46	South	3125	"KAZ 93-42-01"	210	3	2	5
+3	47	South	4201	"KAS 6"	343	3	2	6
+3	48	South	1306	"Bittenfelder S"	100	3	2	7
+3	49	South	3324	"Rogers Mac"	271	3	2	8
+3	50	South	2321	"Kaz 95 18-10"	1275	3	2	9
+3	51	South	5203	Cranzhevoje	454	3	2	10
+3	52	South	9245	Lobo	888	3	2	11
+3	53	South	10219	Potter	985	3	2	12
+3	54	South	1099	Supermac	33	3	2	13
+3	55	South	1261	"SJC 658"	85	3	2	14
+3	56	South	10155	Paradiso	965	3	2	15
+3	57	South	10164	Regent	968	3	2	16
+3	58	South	5271	"Daux Belan"	477	3	2	17
+3	59	South	1123	"SJC 649"	41	3	2	18
+3	60	South	7295	S16-06-84	688	3	2	19
+3	61	South	5152	Boiken	437	3	2	20
+3	62	South	11336	"Surpasse Frequin"	1139	3	2	21
+5	1	South	4056	"KAR 104"	299	1	3	1
+5	2	South	8322	Griffith	803	1	3	2
+5	3	South	2235	"Cox's Orange Pippin"	146	1	3	3
+5	4	South	5199	Canavial-14	453	1	3	4
+5	5	South	7106	S47-21-84	628	1	3	5
+5	6	South	8082	"Frequin Audievre"	723	1	3	6
+5	7	South	2220	Lady	142	1	3	7
+5	8	South	13075	Uljanisceva	1212	1	3	8
+5	9	South	8161	"Kandil Kitaika"	749	1	3	9
+5	10	South	11264	"Narjadnoye Crysmskoye"	1115	1	3	10
+5	11	South	7315	"Ottawa 533"	695	1	3	11
+5	12	South	9029	Jonared	816	1	3	12
+5	13	South	4333	"Chenango Strawberry"	384	1	3	13
+5	14	South	6021	Akin	501	1	3	14
+5	15	South	2306	"Kaz 95 18-09"	168	1	3	15
+5	16	South	11267	Lowry	1116	1	3	16
+5	17	South	9046	Hermann	822	1	3	17
+5	18	South	10204	"Mitschurins Samenloser"	980	1	3	18
+5	19	South	1219	Arlet	72	1	3	19
+5	20	South	2136	"KAZ 96 06-01P-26"	124	1	3	20
+5	21	South	8007	S19-17-31	698	1	3	21
+5	22	South	1144	"Red Delicious"	48	2	3	1
+5	23	South	9008	Kitanosachi	809	2	3	2
+5	24	South	8127	"Hubbards Pearmain"	738	2	3	3
+5	25	South	10332	"Merton Beauty"	1023	2	3	4
+5	26	South	8199	"Le Bret"	762	2	3	5
+5	27	South	7298	S19-10-04	689	2	3	6
+5	28	South	5307	"Champagne Reinette"	489	2	3	7
+5	29	South	7189	S12-31-18	654	2	3	8
+5	30	South	2112	"KAZ 96 08-01P-11"	122	2	3	9
+5	31	South	11160	"Mill End"	1080	2	3	10
+5	32	South	5068	"Bodil Neergaard"	409	2	3	11
+5	33	South	5118	"Claudius Herbstapfel"	426	2	3	12
+5	34	South	3287	"KAS 53"	259	2	3	13
+5	35	South	2291	Koningszuur	163	2	3	14
+5	36	South	1201	Otava	66	2	3	15
+5	37	South	1111	"SJCA 14R3A108"	37	2	3	16
+5	38	South	1170	Zestar	56	2	3	17
+5	39	South	10134	"Minister von Hammerstein"	958	2	3	18
+5	40	South	3240	Hokuto	243	2	3	19
+5	41	South	11334	"Yellow Arkad"	1138	2	3	20
+5	42	South	1249	Freedom	81	3	3	1
+5	43	South	5050	"Black Ben Davis"	403	3	3	2
+5	44	South	10036	Nehou	925	3	3	3
+5	45	South	9004	Jonalicious	808	3	3	4
+5	46	South	6248	"Ottawa 665"	575	3	3	5
+5	47	South	8056	Gewurzluiken	714	3	3	6
+5	48	South	5245	"Ananas Berzenicki"	468	3	3	7
+5	49	South	7109	S47-25-51	629	3	3	8
+5	50	South	11127	"McClintock Grimes"	1069	3	3	9
+5	51	South	4210	"KAR 28"	1224	3	3	10
+5	52	South	8316	"Liestnaya Antonoffku"	801	3	3	11
+5	53	South	12021	Sharon	1146	3	3	12
+5	54	South	1002	Jonafree	1	3	3	13
+5	55	South	8178	Karmijn	755	3	3	14
+5	56	South	5242	"Doux Tardif"	467	3	3	15
+5	57	South	12033	Sipolins	1150	3	3	16
+5	58	South	8221	Galicia	769	3	3	17
+5	59	South	6303	Suntan	590	3	3	18
+5	60	South	11250	"Red Canel"	1110	3	3	19
+5	61	South	11225	"Malling Kent"	1102	3	3	20
+5	62	South	11098	Norhey	1061	3	3	21
+7	1	South	8094	"Lord Lambourne"	727	1	4	1
+7	2	South	1317	"Kaz 95 18-02P-6"	1266	1	4	2
+7	3	South	1108	MN1839	36	1	4	3
+7	4	South	6285	"Gala Must Regal Prince"	584	1	4	4
+7	5	South	1293	"Reinet Russet"	96	1	4	5
+7	6	South	13024	Sunset	1195	1	4	6
+7	7	South	7073	S42-28-05	617	1	4	7
+7	8	South	7304	S10-16-48	691	1	4	8
+7	9	South	11046	"Lubec #1"	1043	1	4	9
+7	10	South	11247	Mother	1109	1	4	10
+7	11	South	3122	"Smith Jonathan"	209	1	4	11
+7	12	South	4101	"KAS 64"	313	1	4	12
+7	13	South	11130	Nanot	1070	1	4	13
+7	14	South	9287	"Geeveston Fanny"	901	1	4	14
+7	15	South	12030	Vienna	1149	1	4	15
+7	16	South	10254	"Renet Bergamotnyj"	997	1	4	16
+7	17	South	6308	Charlotte	1217	1	4	17
+7	18	South	11238	"Red Spitzenburg"	1106	1	4	18
+7	19	South	9214	"Heyer #2"	878	1	4	19
+7	20	South	2202	"Northern Spy"	136	1	4	20
+7	21	South	2031	"Kaz 95 10-01L"	110	1	4	21
+7	22	South	8025	Joan	704	2	4	1
+7	23	South	4225	"KAR 15"	349	2	4	2
+7	24	South	12090	Safstaholm	1168	2	4	3
+7	25	South	8250	Jefferis	779	2	4	4
+7	26	South	2312	"KAZ 96 07-10"	170	2	4	5
+7	27	South	9299	"Geneva Ontario"	905	2	4	6
+7	28	South	4320	"Colby Baldwin"	380	2	4	7
+7	29	South	6324	S47-24-04	595	2	4	8
+7	30	South	2339	"GMAL 3158"	175	2	4	9
+7	31	South	5116	Berglander	425	2	4	10
+7	32	South	4216	"KAR 38"	346	2	4	11
+7	33	South	2273	"Crimson Beauty"	158	2	4	12
+7	34	South	10086	Mucina	942	2	4	13
+7	35	South	10308	Orleans	1015	2	4	14
+7	36	South	11100	Norhey	1061	2	4	15
+7	37	South	6273	"Kent VI"	581	2	4	16
+7	38	South	9113	Eickhoff	844	2	4	17
+7	39	South	11228	Melba	1103	2	4	18
+7	40	South	6108	"Ashmead's Kernel"	529	2	4	19
+7	41	South	10060	Northwood	933	2	4	20
+7	42	South	6137	"Clear Gold"	538	3	4	1
+7	43	South	13030	Snow	1197	3	4	2
+7	44	South	9256	"Kerry Pippin"	892	3	4	3
+7	45	South	9011	Glenorchie	810	3	4	4
+7	46	South	12045	"Souvenir de Fernand Cognet"	1154	3	4	5
+7	47	South	6180	Diana	552	3	4	6
+7	48	South	9223	Julyred	881	3	4	7
+7	49	South	7310	S19-12-42	693	3	4	8
+7	50	South	2142	"KAZ 96 07-08"	125	3	4	9
+7	51	South	9116	"Howgate Wonder"	845	3	4	10
+7	52	South	3195	Eden	230	3	4	11
+7	53	South	9259	"Kardinal Bea"	893	3	4	12
+7	54	South	11258	"Ottawa 4"	1113	3	4	13
+7	55	South	10222	Minnehaha	986	3	4	14
+7	56	South	9173	Jewel	864	3	4	15
+7	57	South	11321	"Royal Jersey"	1134	3	4	16
+7	58	South	2259	"Chisel Jersey"	153	3	4	17
+7	59	South	13032	Toko	1198	3	4	18
+7	60	South	4006	"KAR 96"	284	3	4	19
+7	61	South	6276	S28-18-36	582	3	4	20
+7	62	South	11259	"Ottawa 4"	1113	3	4	21
+9	1	South	7056	S47-21-32	612	1	5	1
+9	2	South	4278	"Bulmer Norman"	366	1	5	2
+9	3	South	9002	Kingjon	807	1	5	3
+9	4	South	1245	"SJC 8428-2"	80	1	5	4
+9	5	South	12108	"Rubra Precoce Breviglieri"	1174	1	5	5
+9	6	South	12101	"Uralskoje Nalivnoje"	1172	1	5	6
+9	7	South	1221	Trent	73	1	5	7
+9	8	South	9221	"Late Strawberry"	880	1	5	8
+9	9	South	4114	"KAR 98"	317	1	5	9
+9	10	South	7210	S29-13-105	660	1	5	10
+9	11	South	7016	S23-05-01	601	1	5	11
+9	12	South	3144	Ingol	214	1	5	12
+9	13	South	5040	"Dubbele Zoete Aagt"	400	1	5	13
+9	14	South	1179	Priscilla	59	1	5	14
+9	15	South	7223	S19-25-36	664	1	5	15
+9	16	South	3207	Iwakami	234	1	5	16
+9	17	South	4042	"KAR 102"	295	1	5	17
+9	18	South	2007	"KAZ 96 08-01P-29"	104	1	5	18
+9	19	South	11280	"Michaelmas Red"	1120	1	5	19
+9	20	South	3186	"Esopus Spitzenburg"	227	1	5	20
+9	21	South	9155	Elektra	858	1	5	21
+9	22	South	6314	Sinta	1238	2	5	1
+9	23	South	1054	Generos	18	2	5	2
+9	24	South	12147	Spencer	1187	2	5	3
+9	25	South	11033	Maunerbe	1039	2	5	4
+9	26	South	13038	"Beautiful Arcade"	1200	2	5	5
+9	27	South	4311	Ballyfatten	377	2	5	6
+9	28	South	4153	"KAS 39"	328	2	5	7
+9	29	South	1240	NY75413	78	2	5	8
+9	30	South	8305	Gales	797	2	5	9
+9	31	South	11316	"Yellow Delicious"	1132	2	5	10
+9	32	South	1039	"INR 6407"	13	2	5	11
+9	33	South	3063	"Spokane Beauty"	194	2	5	12
+9	34	South	9293	"Golden Uralian"	903	2	5	13
+9	35	South	1173	McIntosh	57	2	5	14
+9	36	South	9149	"Gloria Mundi"	856	2	5	15
+9	37	South	3267	Pionier	252	2	5	16
+9	38	South	7124	S47-12-67	634	2	5	17
+9	39	South	3099	Virginiagold	203	2	5	18
+9	40	South	6198	Alexander	558	2	5	19
+9	41	South	9248	"Isayev's Desertnyi"	889	2	5	20
+9	42	South	8175	Korei	754	3	5	1
+9	43	South	6206	Bonne-Hotture	561	3	5	2
+9	44	South	11298	"Rambour Franc"	1126	3	5	3
+9	45	South	8212	Guldborg	766	3	5	4
+9	46	South	9128	"Lamb Abbey Pearmain-A"	849	3	5	5
+9	47	South	10176	"Pomme Raisin"	972	3	5	6
+9	48	South	4023	"KAS 69"	290	3	5	7
+9	49	South	6056	Anoka	513	3	5	8
+9	50	South	9218	Gallen	879	3	5	9
+9	51	South	10102	Paraquet	947	3	5	10
+9	52	South	8146	Jamba	744	3	5	11
+9	53	South	5092	"Early Harvest"	417	3	5	12
+9	54	South	7112	S47-25-05	630	3	5	13
+9	55	South	5074	Aivania	411	3	5	14
+9	56	South	6188	"Black Gilliflower"	555	3	5	15
+9	57	South	5128	"Belle de Crollon"	429	3	5	16
+9	58	South	9305	"Imperial Stayman"	907	3	5	17
+9	59	South	4065	"KAR 85"	302	3	5	18
+9	60	South	10287	Oxbo	1008	3	5	19
+9	61	South	11328	Vilberie	1136	3	5	20
+9	62	South	2171	"Kaz 95 18-02P-33"	1263	3	5	21
+11	1	South	6054	"Bedford Red"	512	1	6	1
+11	2	South	6132	"Drap d'Or Guemene"	536	1	6	2
+11	3	South	11244	Nico	1108	1	6	3
+11	4	South	8050	Hawkeye	712	1	6	4
+11	5	South	6165	Beatrix	547	1	6	5
+11	6	South	11169	"Reinette d' Anjou"	1083	1	6	6
+11	7	South	1207	Rewina	68	1	6	7
+11	8	South	3341	Masonova	277	1	6	8
+11	9	South	3179	Idared	225	1	6	9
+11	10	South	4186	"KAR 16"	339	1	6	10
+11	11	South	1183	Pinova	60	1	6	11
+11	12	South	10191	"Manitoba Spy"	977	1	6	12
+11	13	South	2004	"Kaz 95 18-02P-30"	103	1	6	13
+11	14	South	10273	Potomac	1003	1	6	14
+11	15	South	9265	"Kidd's Orange Red"	895	1	6	15
+11	16	South	5043	"Arkansas Black"	401	1	6	16
+11	17	South	6263	Greensleeves	1221	1	6	17
+11	18	South	8227	"Frumos de Voinesta"	771	1	6	18
+11	19	South	8257	"Holaart Doux"	781	1	6	19
+11	20	South	4299	"C.P. Close"	373	1	6	20
+11	21	South	2075	"KAZ 93-19-02"	116	1	6	21
+11	22	South	2046	"Kaz 95 10-03F"	1259	2	6	1
+11	23	South	1078	Priam	26	2	6	2
+11	24	South	8068	"Jan Steen"	718	2	6	3
+11	25	South	1197	Holly	65	2	6	4
+11	26	South	7174	S23-14-46	649	2	6	5
+11	27	South	10201	"Peau d'Ane"	979	2	6	6
+11	28	South	4285	Amri	368	2	6	7
+11	29	South	6182	"Belle Fille"	553	2	6	8
+11	30	South	1087	"Ottawa 654"	29	2	6	9
+11	31	South	5181	"Creamy Kitaika"	447	2	6	10
+11	32	South	4081	"KAR 89"	306	2	6	11
+11	33	South	1096	Shizuka	32	2	6	12
+11	34	South	1036	Moira	12	2	6	13
+11	35	South	9083	"June Wealthy"	834	2	6	14
+11	36	South	5032	"Bushy Grove"	397	2	6	15
+11	37	South	4227	"KAR 24"	350	2	6	16
+11	38	South	6084	"Cheal's Golden Gem"	522	2	6	17
+11	39	South	11093	Rougemont	1059	2	6	18
+11	40	South	6171	Blaze	549	2	6	19
+11	41	South	4078	"KAR 95"	305	2	6	20
+11	42	South	12003	Stafford	1140	3	6	1
+11	43	South	9313	"Jaune lu Desert"	910	3	6	2
+11	44	South	1090	Richelieu	30	3	6	3
+11	45	South	3168	Megumi	221	3	6	4
+11	46	South	6177	Cimitiere	551	3	6	5
+11	47	South	11114	Pewaukee	1065	3	6	6
+11	48	South	9290	"Freiherr Von Berlepsch"	902	3	6	7
+11	49	South	2207	Petrel	138	3	6	8
+11	50	South	6162	Acme	546	3	6	9
+11	51	South	7171	S29-05-38	648	3	6	10
+11	52	South	11202	Lovell	1094	3	6	11
+11	53	South	7208	S23-04-05	659	3	6	12
+11	54	South	13042	"Nova Russet"	1201	3	6	13
+11	55	South	7087	S47-12-44	622	3	6	14
+11	56	South	1009	Enterprise	3	3	6	15
+11	57	South	3351	"KAR 94"	280	3	6	16
+11	58	South	3213	Kogetsu	236	3	6	17
+11	59	South	11103	"Rossoshanskoje Polosatoje"	1062	3	6	18
+11	60	South	4011	"KAS 77"	286	3	6	19
+11	61	South	3092	"KAZ 96 07-04"	201	3	6	20
+11	62	South	5196	Britemac	452	3	6	21
+13	1	South	1305	"Bittenfelder S"	100	1	7	1
+13	2	South	11219	"Red Australian Rome Beauty"	1100	1	7	2
+13	3	South	10047	Montgomery	929	1	7	3
+13	4	South	1024	Dayton	8	1	7	4
+13	5	South	2297	"Oelsen 2 x Hartmann-Muhle 1"	165	1	7	5
+13	6	South	3170	"Golden Delicious"	222	1	7	6
+13	7	South	2127	"KAZ 96 09-05"	1299	1	7	7
+13	8	South	5191	"Collamer Twenty Ounce"	450	1	7	8
+13	9	South	11274	Norda	1118	1	7	9
+13	10	South	3261	Orin	250	1	7	10
+13	11	South	8139	"Golden Reinette"	742	1	7	11
+13	12	South	9041	Keuleman	820	1	7	12
+13	13	South	5107	Brusnichnoe	422	1	7	13
+13	14	South	6185	Auralia	554	1	7	14
+13	15	South	1093	Fantazja	31	1	7	15
+13	16	South	3051	"GMAL 3223"	190	1	7	16
+13	17	South	9076	"Flower of Kent"	832	1	7	17
+13	18	South	9179	Longfield	866	1	7	18
+13	19	South	7264	S38-04-11	678	1	7	19
+13	20	South	11217	"Pervenec Samarkanda"	1099	1	7	20
+13	21	South	3078	"GMAL 2251"	197	1	7	21
+13	22	South	11144	"Rambourg d'Automme"	1075	2	7	1
+13	23	South	6156	Conrad	544	2	7	2
+13	24	South	1209	Regine	69	2	7	3
+13	25	South	7154	S29-13-73	643	2	7	4
+13	26	South	4116	Macoun	1228	2	7	5
+13	27	South	4051	"KAS 79"	297	2	7	6
+13	28	South	9152	Heiya	857	2	7	7
+13	29	South	2088	"KAZ 96 03-01P-7"	119	2	7	8
+13	30	South	1033	Rouville	11	2	7	9
+13	31	South	2139	"Kaz 95 05-01P-3"	1244	2	7	10
+13	32	South	1101	SJCXN982	34	2	7	11
+13	33	South	9020	"King David"	813	2	7	12
+13	34	South	6087	"Crown Prince Rudolf"	523	2	7	13
+13	35	South	7273	S38-06-140	681	2	7	14
+13	36	South	8287	"Hotle Rome"	791	2	7	15
+13	37	South	3140	"Reinette Simirenko"	213	2	7	16
+13	38	South	11135	"Reine des Pommes"	1072	2	7	17
+13	39	South	10293	Metais	1010	2	7	18
+13	40	South	8137	"Ellis Bitter"	741	2	7	19
+13	41	South	3237	Tsugaru	242	2	7	20
+13	42	South	9089	Holstein	836	3	7	1
+13	43	South	8244	"Field Spy"	777	3	7	2
+13	44	South	11289	Maude	1123	3	7	3
+13	45	South	4335	Bonum	385	3	7	4
+13	46	South	4054	"KAR 110"	298	3	7	5
+13	47	South	6036	Boutteville	506	3	7	6
+13	48	South	9196	"Frequin Lacaille"	872	3	7	7
+13	49	South	2153	"Kaz 95 09-03F"	129	3	7	8
+13	50	South	7268	S38-03-89	679	3	7	9
+13	51	South	3029	Djulabia	184	3	7	10
+13	52	South	12075	"William Crump"	1163	3	7	11
+13	53	South	5178	"Cornish Gilliflower"	446	3	7	12
+13	54	South	8131	Honeygold	739	3	7	13
+13	55	South	8134	Grenadier	740	3	7	14
+13	56	South	8268	"Isle of Wight Pippin"	785	3	7	15
+13	57	South	1045	"Co-op 29"	15	3	7	16
+13	58	South	3338	"KAS 59"	276	3	7	17
+13	59	South	2043	"Kaz 95 18-03"	1268	3	7	18
+13	60	South	8182	Erickson	756	3	7	19
+13	61	South	4104	"KAS 56"	314	3	7	20
+13	62	South	7118	S47-25-48	632	3	7	21
+15	1	South	12095	Trebu	1170	1	8	1
+15	2	South	4327	Democrat	382	1	8	2
+15	3	South	8283	Lemoen	790	1	8	3
+15	4	South	6038	"Bella de Jardins"	507	1	8	4
+15	5	South	2223	"Ingrid Marie"	143	1	8	5
+15	6	South	11207	Redhook	1096	1	8	6
+15	7	South	10152	"Miron Sacharanij"	964	1	8	7
+15	8	South	12114	Suvorovets	1176	1	8	8
+15	9	South	3129	"KAZ 96 07-06"	1286	1	8	9
+15	10	South	8074	Korallo	720	1	8	10
+15	11	South	1324	"Kaz 95 18-10"	1274	1	8	11
+15	12	South	7052	S47-25-72	610	1	8	12
+15	13	South	1113	NY65707-19	38	1	8	13
+15	14	South	12078	"Signe Tillisch"	1164	1	8	14
+15	15	South	4165	"KAS 44"	332	1	8	15
+15	16	South	13078	Sparreholm	1213	1	8	16
+15	17	South	10173	Niagara	971	1	8	17
+15	18	South	12057	Tasty	1158	1	8	18
+15	19	South	8086	Frostproof	724	1	8	19
+15	20	South	10122	"Quebec Belle"	954	1	8	20
+15	21	South	2319	Empire	171	1	8	21
+15	22	South	10326	"Messire Jacques"	1021	2	8	1
+15	23	South	9170	"Golden Nugget"	863	2	8	2
+15	24	South	7262	S38-03-28	677	2	8	3
+15	25	South	9085	"Lambrook Pippin"	835	2	8	4
+15	26	South	13060	"Sweet Caroline"	1207	2	8	5
+15	27	South	7178	S23-02-350	650	2	8	6
+15	28	South	11255	Obilnoye	1112	2	8	7
+15	29	South	8185	Frogmore	757	2	8	8
+15	30	South	7064	S47-20-38	614	2	8	9
+15	31	South	10137	"Qing Guan"	959	2	8	10
+15	32	South	5110	Chautauqua	423	2	8	11
+15	33	South	11214	Mariborka	1098	2	8	12
+15	34	South	11337	"Surpasse Frequin"	1139	2	8	13
+15	35	South	12006	Tilsith	1141	2	8	14
+15	36	South	4084	"KAR 84"	307	2	8	15
+15	37	South	8173	Kestrel	753	2	8	16
+15	38	South	5011	"Aargauer Jubilaums"	390	2	8	17
+15	39	South	9283	"George Cave"	900	2	8	18
+15	40	South	3333	"KAR 86"	274	2	8	19
+15	41	South	1230	Redstarkingvale	76	2	8	20
+15	42	South	7001	S42-38-04	596	3	8	1
+15	43	South	5169	"Blahova Ruzena"	443	3	8	2
+15	44	South	4237	"KAS 45"	353	3	8	3
+15	45	South	2343	Jonagold	176	3	8	4
+15	46	South	9050	Ivan	823	3	8	5
+15	47	South	8149	"Gruzhovka of Moscow"	745	3	8	6
+15	48	South	10267	Maharaji	1001	3	8	7
+15	49	South	2285	"FORM 181 (35-01)"	161	3	8	8
+15	50	South	11232	"Rose de Benauge"	1104	3	8	9
+15	51	South	4255	"Black Pearl"	358	3	8	10
+15	52	South	12015	Spasserud	1144	3	8	11
+15	53	South	11277	Quastresse	1119	3	8	12
+15	54	South	3065	"Poeltsamaa Winter Apple"	195	3	8	13
+15	55	South	9157	"Egri Piros"	859	3	8	14
+15	56	South	4150	"KAR 35"	327	3	8	15
+15	57	South	11283	"Manche Rouge"	1121	3	8	16
+15	58	South	7271	S38-03-15	680	3	8	17
+15	59	South	8059	"Ellison's Orange"	715	3	8	18
+15	60	South	4057	"KAR 104"	299	3	8	19
+15	61	South	11291	"Red Dougherty"	1124	3	8	20
+15	62	South	10080	Oriole	940	3	8	21
+17	1	South	5248	"Amur Naliv"	469	1	9	1
+17	2	South	5292	Camuzat	484	1	9	2
+17	3	South	10263	"Paradis do Vayre"	1000	1	9	3
+17	4	South	10305	"Paide's Winter Apple"	1014	1	9	4
+17	5	South	11181	"Peypring Cerueuko"	1087	1	9	5
+17	6	South	1291	"SJC 8444-2"	95	1	9	6
+17	7	South	6270	GA6132	580	1	9	7
+17	8	South	4098	"Crimson Gold"	312	1	9	8
+17	9	South	1140	11W-19-18	47	1	9	9
+17	10	South	12051	"White Jersey"	1156	1	9	10
+17	11	South	7030	S14-15-72	1235	1	9	11
+17	12	South	11153	Mottais	1078	1	9	12
+17	13	South	4009	"KAS 76"	285	1	9	13
+17	14	South	10317	Redstreak	1018	1	9	14
+17	15	South	3305	"KAS 58"	265	1	9	15
+17	16	South	2238	"KAZ 96 06-03"	147	1	9	16
+17	17	South	3210	"Pink Lady"	235	1	9	17
+17	18	South	9212	Eurika	877	1	9	18
+17	19	South	1297	"INR 6690"	97	1	9	19
+17	20	South	7216	S16-06-72	662	1	9	20
+17	21	South	12099	Wealthy	1171	1	9	21
+17	22	South	9014	"Litevsky Jadernac"	811	2	9	1
+17	23	South	2052	"Kaz 95 10-05F"	112	2	9	2
+17	24	South	9101	"Ernst Bosch"	840	2	9	3
+17	25	South	10090	"Red Canada"	943	2	9	4
+17	26	South	12042	Sundance	1153	2	9	5
+17	27	South	11078	"Mannington Pearmain"	1054	2	9	6
+17	28	South	9023	"La Paix"	814	2	9	7
+17	29	South	1048	Topaz	16	2	9	8
+17	30	South	1131	"SJCA 16R5A15"	44	2	9	9
+17	31	South	1129	Rubinette	43	2	9	10
+17	32	South	8097	"Graue Renette Von Zabergau"	728	2	9	11
+17	33	South	6099	Beacon	527	2	9	12
+17	34	South	5023	"American Summer Pearmain"	394	2	9	13
+17	35	South	4203	"KAR 36"	344	2	9	14
+17	36	South	2295	Delicious	164	2	9	15
+17	37	South	11121	Ortley	1067	2	9	16
+17	38	South	8263	"Gallia Beauty"	783	2	9	17
+17	39	South	3005	"Casa Nova de Alco Baca-9"	178	2	9	18
+17	40	South	5122	Blair	427	2	9	19
+17	41	South	12027	"Teign Harvey"	1148	2	9	20
+17	42	South	8332	"Honey Ball"	806	3	9	1
+17	43	South	3161	"KAZ 96 06-01P-28"	219	3	9	2
+17	44	South	5290	"Baumann's Reinette"	483	3	9	3
+17	45	South	4027	"KAS 68"	291	3	9	4
+17	46	South	3309	"KAR 103"	266	3	9	5
+17	47	South	8151	Gladstone	746	3	9	6
+17	48	South	5311	"Benitts Roter Finkenwerde"	490	3	9	7
+17	49	South	10027	"Lyman Prolific"	922	3	9	8
+17	50	South	3090	"GMAL 1750"	200	3	9	9
+17	51	South	3296	Chehalis	262	3	9	10
+17	52	South	8046	Leyda	711	3	9	11
+17	53	South	11091	"Peck Pleasant"	1058	3	9	12
+17	54	South	6065	Collet	516	3	9	13
+17	55	South	1194	Pia	64	3	9	14
+17	56	South	8319	"Hendrick Sweet"	802	3	9	15
+17	57	South	2172	"Kaz 95 18-02P-33"	1263	3	9	16
+17	58	South	11252	"Red Astrachan"	1111	3	9	17
+17	59	South	8031	"King Cole"	706	3	9	18
+17	60	South	8206	"Feys Record"	764	3	9	19
+17	61	South	11058	"No Blow"	1047	3	9	20
+17	62	South	2042	"Kaz 95 18-03"	1268	3	9	21
+2	1	North	10290	Pixie	1009	1	1	22
+2	2	North	13126	Honeycrisp	1223	1	1	23
+2	3	North	7234	S31-04-41	668	1	1	24
+2	4	North	6088	Dulcina	524	1	1	25
+2	5	North	5322	"Blanc Mollet"	494	1	1	26
+2	6	North	3184	"Esopus Spitzenburg"	227	1	1	27
+2	7	North	8225	"Frumos de Voinesta"	771	1	1	28
+2	8	North	5210	"Early Crimson"	457	1	1	29
+2	9	North	2257	"Chisel Jersey"	153	1	1	30
+2	10	North	10022	"Red Belflower"	921	1	1	31
+2	11	North	8133	Grenadier	740	1	1	32
+2	12	North	5063	"Clear Heart"	408	1	1	33
+2	13	North	10247	Mantet	995	1	1	34
+2	14	North	3248	"Buckeye Gala"	246	1	1	35
+2	15	North	9150	Heiya	857	1	1	36
+2	16	North	10316	Redstreak	1018	1	1	37
+2	17	North	8216	Frequin	768	1	1	38
+2	18	North	5264	"Chiver's Delight"	475	1	1	39
+2	19	North	6109	"Berlepsch Red"	530	1	1	40
+2	20	North	7083	S42-39-10	621	1	1	41
+2	21	North	2287	"Antonovka Kamenichka"	162	1	1	42
+2	22	North	1232	Ambrosia	1216	2	1	21
+2	23	North	4190	"KAS 8"	341	2	1	22
+2	24	North	2290	Koningszuur	163	2	1	23
+2	25	North	1083	Macfree	28	2	1	24
+2	26	North	3148	"Gravenstein Washington Red"	216	2	1	25
+2	27	North	8105	Launette	731	2	1	26
+2	28	North	2336	"Antonovka 1.5 pounds"	174	2	1	27
+2	29	North	12044	"Souvenir de Fernand Cognet"	1154	2	1	28
+2	30	North	11152	Mottais	1078	2	1	29
+2	31	North	1202	Elstar	67	2	1	30
+2	32	North	2131	"KAZ 96 02-01P-6"	123	2	1	31
+2	33	North	13031	Toko	1198	2	1	32
+2	34	North	9207	"Lane's Prince Albert"	876	2	1	33
+2	35	North	9126	"Lamb Abbey Pearmain-A"	849	2	1	34
+2	36	North	10229	"Roxbury Russet"	989	2	1	35
+2	37	North	6205	Bonne-Hotture	561	2	1	36
+2	38	North	3346	"KAS 65"	279	2	1	37
+2	39	North	8048	Hawkeye	712	2	1	38
+2	40	North	1064	Voinea	22	2	1	39
+2	41	North	11174	Medina	1085	2	1	40
+2	42	North	13112	SweeTango	1232	3	1	22
+2	43	North	1256	Murray	84	3	1	23
+2	44	North	6245	"Blue Pearmain"	574	3	1	24
+2	45	North	3235	Tsugaru	242	3	1	25
+2	46	North	6079	"Doucet Rouge"	521	3	1	26
+2	47	North	2201	"Northern Spy"	136	3	1	27
+2	48	North	2246	"KAZ 93-24-01"	149	3	1	28
+2	49	North	10301	"Old Pearmain"	1013	3	1	29
+2	50	North	2309	Summerred	169	3	1	30
+2	51	North	10151	"Miron Sacharanij"	964	3	1	31
+2	52	North	4134	"KAR 113"	322	3	1	32
+2	53	North	8183	Frogmore	757	3	1	33
+2	54	North	6275	S28-18-36	582	3	1	34
+2	55	North	7014	S23-05-01	601	3	1	35
+2	56	North	10190	"Manitoba Spy"	977	3	1	36
+2	57	North	6214	Cole	564	3	1	37
+2	58	North	5055	"Belle de Nordhaussen"	405	3	1	38
+2	59	North	2062	"Kaz 95 08-06"	1254	3	1	39
+2	60	North	3106	Anna	204	3	1	40
+2	61	North	1190	Aroma	63	3	1	41
+2	62	North	9266	"Kidd's Orange Red"	895	3	1	42
+4	1	North	1258	Murray	84	1	2	22
+4	2	North	13086	Ambrosia	1216	1	2	23
+4	3	North	2119	"KAZ 96 02-01P-11"	1280	1	2	24
+4	4	North	5219	Akero	460	1	2	25
+4	5	North	8276	Fallawater	788	1	2	26
+4	6	North	10184	Redwell	975	1	2	27
+4	7	North	6175	Cimitiere	551	1	2	28
+4	8	North	4149	"KAR 35"	327	1	2	29
+4	9	North	2338	"GMAL 3158"	175	1	2	30
+4	10	North	4062	"KAR 107"	301	1	2	31
+4	11	North	10028	"Richland Crab"	923	1	2	32
+4	12	North	1091	Fantazja	31	1	2	33
+4	13	North	11032	Maunerbe	1039	1	2	34
+4	14	North	11218	"Red Australian Rome Beauty"	1100	1	2	35
+4	15	North	2009	"KAZ 96 06-01P-23"	105	1	2	36
+4	16	North	1241	Novamac	79	1	2	37
+4	17	North	4025	"KAS 68"	291	1	2	38
+4	18	North	8084	Frostproof	724	1	2	39
+4	19	North	6271	"Kent VI"	581	1	2	40
+4	20	North	2209	"Nova Easygro"	139	1	2	41
+4	21	North	13055	Tayeshnoe	1206	1	2	42
+4	22	North	13108	SweeTango	1232	2	2	21
+4	23	North	11165	Paulared	1082	2	2	22
+4	24	North	8273	Kanorkowa	787	2	2	23
+4	25	North	6301	Suntan	590	2	2	24
+4	26	North	10118	Patul	953	2	2	25
+4	27	North	9072	"Jewett Red"	831	2	2	26
+4	28	North	2219	Lady	142	2	2	27
+4	29	North	3142	Ingol	214	2	2	28
+4	30	North	7237	"Ottawa 637"	669	2	2	29
+4	31	North	1304	"Bittenfelder S"	100	2	2	30
+4	32	North	7267	S38-03-89	679	2	2	31
+4	33	North	6229	"Bella di Pontoise"	569	2	2	32
+4	34	North	9139	Komlensk	853	2	2	33
+4	35	North	3058	"GMAL 3163"	193	2	2	34
+4	36	North	10091	Quinte	944	2	2	35
+4	37	North	9321	Loyalist	913	2	2	36
+4	38	North	9003	Jonalicious	808	2	2	37
+4	39	North	11197	Mio	1093	2	2	38
+4	40	North	7086	S47-12-44	622	2	2	39
+4	41	North	11299	"Ruhm aus Kirchwarder"	1127	2	2	40
+4	42	North	13132	Honeycrisp	1223	3	2	22
+4	43	North	10250	Rokewood	996	3	2	23
+4	44	North	1152	Maigold	51	3	2	24
+4	45	North	2089	"Kaz 95 08-04"	120	3	2	25
+4	46	North	5162	"Brown's Apple"	441	3	2	26
+4	47	North	4286	Dudley	369	3	2	27
+4	48	North	10116	Novinka	952	3	2	28
+4	49	North	3004	"Casa Nova de Alco Baca-9"	178	3	2	29
+4	50	North	9282	"George Cave"	900	3	2	30
+4	51	North	2110	"KAZ 96 08-01P-11"	122	3	2	31
+4	52	North	5078	Discovery	413	3	2	32
+4	53	North	1023	Dayton	8	3	2	33
+4	54	North	8256	"Holaart Doux"	781	3	2	34
+4	55	North	4005	"KAR 96"	284	3	2	35
+4	56	North	10295	"Reinette Grise"	1011	3	2	36
+4	57	North	11110	"Oetwiler Renette"	1064	3	2	37
+4	58	North	3244	Akane	245	3	2	38
+4	59	North	5114	Berglander	425	3	2	39
+4	60	North	10136	"Qing Guan"	959	3	2	40
+4	61	North	5186	Delikates	449	3	2	41
+4	62	North	4264	"KAR 31"	361	3	2	42
+6	1	North	7183	S47-23-49	652	1	3	22
+6	2	North	3216	SweeTango	1232	1	3	23
+6	3	North	8292	"Kandil Sinap"	793	1	3	24
+6	4	North	4064	"KAR 85"	302	1	3	25
+6	5	North	3227	"Gloster 69"	1219	1	3	26
+6	6	North	10265	Maharaji	1001	1	3	27
+6	7	North	11059	"Red Cox's Pomona"	1048	1	3	28
+6	8	North	2080	"Kaz 95 08-01"	1252	1	3	29
+6	9	North	4076	"KAR 95"	305	1	3	30
+6	10	North	9081	"June Wealthy"	834	1	3	31
+6	11	North	3119	"Rosemary Russet"	208	1	3	32
+6	12	North	4275	"Circassian Apple"	365	1	3	33
+6	13	North	8208	"Hudson's Golden Gem"	765	1	3	34
+6	14	North	5150	Boiken	437	1	3	35
+6	15	North	2041	"Kaz 95 18-03"	1268	1	3	36
+6	16	North	8181	Erickson	756	1	3	37
+6	17	North	11102	"Rossoshanskoje Polosatoje"	1062	1	3	38
+6	18	North	8168	"Hua Guan"	752	1	3	39
+6	19	North	8252	Goodland	780	1	3	40
+6	20	North	3009	Niedzwetzkyana	1302	1	3	41
+6	21	North	9042	Ingram	821	1	3	42
+6	22	North	13136	Honeycrisp	1223	2	3	21
+6	23	North	5042	"Arkansas Black"	401	2	3	22
+6	24	North	8267	"Isle of Wight Pippin"	785	2	3	23
+6	25	North	3221	Chinook	238	2	3	24
+6	26	North	2240	"Kaz 95 05-01P-22"	1243	2	3	25
+6	27	North	1097	Supermac	33	2	3	26
+6	28	North	8138	"Golden Reinette"	742	2	3	27
+6	29	North	3016	Viking	181	2	3	28
+6	30	North	9310	"King Edward VII"	909	2	3	29
+6	31	North	2026	"Kaz 95 06-01"	109	2	3	30
+6	32	North	12143	"San Juan"	1186	2	3	31
+6	33	North	10157	Mislimka	966	2	3	32
+6	34	North	10008	"Morden 363"	916	2	3	33
+6	35	North	11272	Norda	1118	2	3	34
+6	36	North	1296	"INR 6690"	97	2	3	35
+6	37	North	11119	Ortley	1067	2	3	36
+6	38	North	9141	"Golden Precoce"	854	2	3	37
+6	39	North	8174	Korei	754	2	3	38
+6	40	North	5048	"Black Ben Davis"	403	2	3	39
+6	41	North	4019	"KAR 112"	289	2	3	40
+6	42	North	13092	Ambrosia	1216	3	3	22
+6	43	North	7251	S42-40-09	674	3	3	23
+6	44	North	3190	"Prime Red"	229	3	3	24
+6	45	North	5165	Charlamoff	442	3	3	25
+6	46	North	4139	"KAR 111"	324	3	3	26
+6	47	North	7248	S38-04-01	673	3	3	27
+6	48	North	3079	"Winter Banana"	198	3	3	28
+6	49	North	3025	Monroe	183	3	3	29
+6	50	North	6149	"Del Cirio"	542	3	3	30
+6	51	North	6112	"C'Huero Biz Bras"	531	3	3	31
+6	52	North	13077	Sparreholm	1213	3	3	32
+6	53	North	3037	"Pacific Gold"	186	3	3	33
+6	54	North	9064	"Lord Seedling"	828	3	3	34
+6	55	North	11071	"Pott's Seedling"	1052	3	3	35
+6	56	North	2188	"KAZ 96 01-03"	132	3	3	36
+6	57	North	4071	"KAS 67"	1227	3	3	37
+6	58	North	3335	"KAS 57"	275	3	3	38
+6	59	North	4121	"KAR 108"	318	3	3	39
+6	60	North	10058	Northwood	933	3	3	40
+6	61	North	11335	"Surpasse Frequin"	1139	3	3	41
+6	62	North	12116	Slocan	1177	3	3	42
+8	1	North	8241	Fillbarrel	776	1	4	22
+8	2	North	1155	Honeycrisp	1223	1	4	23
+8	3	North	5282	Bouteille	481	1	4	24
+8	4	North	8036	Jonathan	708	1	4	25
+8	5	North	6151	Boche	543	1	4	26
+8	6	North	11161	"Pumpkin Sweet"	1081	1	4	27
+8	7	North	12089	Safstaholm	1168	1	4	28
+8	8	North	7038	S23-04-462	1236	1	4	29
+8	9	North	9153	Elektra	858	1	4	30
+8	10	North	9315	"Harry Masters Jersey"	911	1	4	31
+8	11	North	3251	"Geneva early"	247	1	4	32
+8	12	North	11257	"Ottawa 4"	1113	1	4	33
+8	13	North	4092	"KAS 70"	310	1	4	34
+8	14	North	3193	Eden	230	1	4	35
+8	15	North	4094	"KAR 81"	311	1	4	36
+8	16	North	10035	Nehou	925	1	4	37
+8	17	North	4193	"KAS 20"	342	1	4	38
+8	18	North	8033	Krapchatoe	707	1	4	39
+8	19	North	8189	"Halberstadter Jungfernapfel"	759	1	4	40
+8	20	North	5256	"Crimson Bramley"	472	1	4	41
+8	21	North	12049	"White Jersey"	1156	1	4	42
+8	22	North	13090	Ambrosia	1216	2	4	21
+8	23	North	11329	"Seestermuher Zitronenapfel"	1137	2	4	22
+8	24	North	2234	"Cox's Orange Pippin"	146	2	4	23
+8	25	North	7101	S42-48-06	627	2	4	24
+8	26	North	3196	"Coxs Orange"	231	2	4	25
+8	27	North	8079	"Golden Winesap"	722	2	4	26
+8	28	North	9276	"Exeter Cross"	898	2	4	27
+8	29	North	8006	S19-17-31	698	2	4	28
+8	30	North	9243	Lobo	888	2	4	29
+8	31	North	7048	S47-24-47	609	2	4	30
+8	32	North	10013	Luke	918	2	4	31
+8	33	North	10215	"Ottawa 271"	984	2	4	32
+8	34	North	1196	Holly	65	2	4	33
+8	35	North	1104	"8B 14 56"	35	2	4	34
+8	36	North	10061	"Ottawa 292"	934	2	4	35
+8	37	North	1290	"SJC 8444-2"	95	2	4	36
+8	38	North	10178	"Oekonomierat Echter-meyer"	973	2	4	37
+8	39	North	3271	Jerseyred	254	2	4	38
+8	40	North	4028	"KAR 88"	292	2	4	39
+8	41	North	3172	Haralson	223	2	4	40
+8	42	North	13110	SweeTango	1232	3	4	22
+8	43	North	11287	Maude	1123	3	4	23
+8	44	North	9213	"Heyer #2"	878	3	4	24
+8	45	North	11308	"Twistbody Jersey"	1130	3	4	25
+8	46	North	3028	Djulabia	184	3	4	26
+8	47	North	11069	Paragon	1051	3	4	27
+8	48	North	6026	"Berner Rosen"	503	3	4	28
+8	49	North	11254	Obilnoye	1112	3	4	29
+8	50	North	10049	Renown	930	3	4	30
+8	51	North	5306	"Champagne Reinette"	489	3	4	31
+8	52	North	11213	Mariborka	1098	3	4	32
+8	53	North	11077	"Mannington Pearmain"	1054	3	4	33
+8	54	North	12074	"William Crump"	1163	3	4	34
+8	55	North	11242	Nico	1108	3	4	35
+8	56	North	8096	"Graue Renette Von Zabergau"	728	3	4	36
+8	57	North	9264	"Kidd's Orange Red"	895	3	4	37
+8	58	North	4220	"KAR 37"	348	3	4	38
+8	59	North	4200	"KAS 6"	343	3	4	39
+8	60	North	9048	Ivan	823	3	4	40
+8	61	North	9006	Kitanosachi	809	3	4	41
+8	62	North	12050	"White Jersey"	1156	3	4	42
+10	1	North	1312	"Kaz 95 18-14"	1276	1	5	22
+10	2	North	1234	Ambrosia	1216	1	5	23
+10	3	North	9130	Huvitus	850	1	5	24
+10	4	North	3331	"KAR 86"	274	1	5	25
+10	5	North	5072	Aivania	411	1	5	26
+10	6	North	5109	Chautauqua	423	1	5	27
+10	7	North	12013	Spasserud	1144	1	5	28
+10	8	North	10203	"Mitschurins Samenloser"	980	1	5	29
+10	9	North	4244	"KAR 25"	356	1	5	30
+10	10	North	8333	Kingjon	807	1	5	31
+10	11	North	8321	Griffith	803	1	5	32
+10	12	North	9250	"Grise Dieppoise"	890	1	5	33
+10	13	North	10337	"Pomme Cloche"	1025	1	5	34
+10	14	North	8246	Idajon	778	1	5	35
+10	15	North	3139	"Reinette Simirenko"	213	1	5	36
+10	16	North	9160	"Elisa Ratkee"	860	1	5	37
+10	17	North	10274	Lurared	1004	1	5	38
+10	18	North	7041	S23-06-129	1237	1	5	39
+10	19	North	2074	"KAZ 93-19-02"	116	1	5	40
+10	20	North	11137	Nugget	1073	1	5	41
+10	21	North	10179	"Oekonomierat Echter-meyer"	973	1	5	42
+10	22	North	13106	SweeTango	1232	2	5	21
+10	23	North	5225	"Crawley Reinette"	462	2	5	22
+10	24	North	11099	Norhey	1061	2	5	23
+10	25	North	3242	"KAS 21"	244	2	5	24
+10	26	North	10175	"Pomme Raisin"	972	2	5	25
+10	27	North	9165	"Hubbardston Nonsuch"	862	2	5	26
+10	28	North	5250	"Barkley Rome"	470	2	5	27
+10	29	North	6292	Jonasty	587	2	5	28
+10	30	North	3313	"KAR 80"	268	2	5	29
+10	31	North	1185	Piflora	61	2	5	30
+10	32	North	12023	"Stone Pippin"	1147	2	5	31
+10	33	North	7092	S42-08-08	624	2	5	32
+10	34	North	4268	"KAR 14"	363	2	5	33
+10	35	North	7173	S23-14-46	649	2	5	34
+10	36	North	9099	"Ernst Bosch"	840	2	5	35
+10	37	North	13073	Uljanisceva	1212	2	5	36
+10	38	North	8171	Kestrel	753	2	5	37
+10	39	North	4172	"Sid the Kid"	335	2	5	38
+10	40	North	7299	S10-16-14	690	2	5	39
+10	41	North	4253	"Black Pearl"	358	2	5	40
+10	42	North	13130	Honeycrisp	1223	3	5	22
+10	43	North	8042	Heimenhofer	710	3	5	23
+10	44	North	12032	Sipolins	1150	3	5	24
+10	45	North	7182	S47-23-49	652	3	5	25
+10	46	North	2206	Petrel	138	3	5	26
+10	47	North	11005	"Lorna Doone"	1030	3	5	27
+10	48	North	10103	Mantuanskoye	948	3	5	28
+10	49	North	7269	S38-03-15	680	3	5	29
+10	50	North	4055	"KAR 104"	299	3	5	30
+10	51	North	8282	Lemoen	790	3	5	31
+10	52	North	4185	"KAR 16"	339	3	5	32
+10	53	North	2215	"Red Apple"	141	3	5	33
+10	54	North	1239	NY75413	78	3	5	34
+10	55	North	11095	Martha	1060	3	5	35
+10	56	North	6046	Charden	510	3	5	36
+10	57	North	1214	MN1797	71	3	5	37
+10	58	North	2341	Jonagold	176	3	5	38
+10	59	North	11047	Milton	1044	3	5	39
+10	60	North	11312	Starking	1131	3	5	40
+10	61	North	6307	Charlotte	1217	3	5	41
+10	62	North	6179	Diana	552	3	5	42
+12	1	North	1116	Keepsake	39	1	6	22
+12	2	North	3214	SweeTango	1232	1	6	23
+12	3	North	2317	Empire	171	1	6	24
+12	4	North	5297	Brettacher	486	1	6	25
+12	5	North	6241	"Bashkirian Beauty"	573	1	6	26
+12	6	North	6196	Alexander	558	1	6	27
+12	7	North	6290	"Ottawa 381"	586	1	6	28
+12	8	North	1166	McShay	55	1	6	29
+12	9	North	9060	Ermak	827	1	6	30
+12	10	North	7293	S16-06-84	688	1	6	31
+12	11	North	10286	Oxbo	1008	1	6	32
+12	12	North	5039	"Dubbele Zoete Aagt"	400	1	6	33
+12	13	North	5123	Brazil	428	1	6	34
+12	14	North	10133	"Minister von Hammerstein"	958	1	6	35
+12	15	North	12017	"Schoner aus Miltenberg"	1145	1	6	36
+12	16	North	6155	Conrad	544	1	6	37
+12	17	North	8093	"Lord Lambourne"	727	1	6	38
+12	18	North	3049	"GMAL 3223"	190	1	6	39
+12	19	North	12061	"Tydemans Early Worcester"	1160	1	6	40
+12	20	North	6160	Acme	546	1	6	41
+12	21	North	1139	11W-19-18	47	1	6	42
+12	22	North	13127	Honeycrisp	1223	2	6	21
+12	23	North	9219	"Late Strawberry"	880	2	6	22
+12	24	North	4053	"KAR 110"	298	2	6	23
+12	25	North	1073	"Co-op 28"	25	2	6	24
+12	26	North	11158	"Mill End"	1080	2	6	25
+12	27	North	8144	Jamba	744	2	6	26
+12	28	North	1044	"Co-op 29"	15	2	6	27
+12	29	North	4169	"KAS 41"	334	2	6	28
+12	30	North	9204	Greenchisel	875	2	6	29
+12	31	North	2242	"Marshall McIntosh"	148	2	6	30
+12	32	North	13071	"Tohoku 2"	1211	2	6	31
+12	33	North	9183	Linda	868	2	6	32
+12	34	North	3340	Masonova	277	2	6	33
+12	35	North	8223	"Golden Russet"	770	2	6	34
+12	36	North	2322	"Kaz 95 18-10"	1275	2	6	35
+12	37	North	5066	"Bodil Neergaard"	409	2	6	36
+12	38	North	6013	Charlotte	1218	2	6	37
+12	39	North	13067	Smokehouse	1210	2	6	38
+12	40	North	11017	"Nitschners Erdbeerapfel"	1034	2	6	39
+12	41	North	1014	Liberty	5	2	6	40
+12	42	North	13088	Ambrosia	1216	3	6	22
+12	43	North	6098	Beacon	527	3	6	23
+12	44	North	5201	Cranzhevoje	454	3	6	24
+12	45	North	6250	"Tom McLean"	576	3	6	25
+12	46	North	7113	S47-21-29	631	3	6	26
+12	47	North	3100	"KAZ 96 08-17"	1292	3	6	27
+12	48	North	1178	Priscilla	59	3	6	28
+12	49	North	12040	Sundance	1153	3	6	29
+12	50	North	9093	Herma	838	3	6	30
+12	51	North	11002	"Norfolk Royal"	1029	3	6	31
+12	52	North	7180	S23-03-749	651	3	6	32
+12	53	North	7147	S23-02-626	642	3	6	33
+12	54	North	3010	"Yellow Transparent"	179	3	6	34
+12	55	North	7072	S42-28-05	617	3	6	35
+12	56	North	2020	"Kaz 95 18-05"	1272	3	6	36
+12	57	North	3146	"KAZ 95 08-06"	215	3	6	37
+12	58	North	9135	"Ikorocavka Alaja"	852	3	6	38
+12	59	North	12058	Wright	1159	3	6	39
+12	60	North	11026	Redgold	1037	3	6	40
+12	61	North	9235	"Jones Favorite"	885	3	6	41
+12	62	North	11086	Malabols	1057	3	6	42
+14	1	North	11028	Redgold	1037	1	7	22
+14	2	North	13128	Honeycrisp	1223	1	7	23
+14	3	North	9177	Longfield	866	1	7	24
+14	4	North	3232	MN1849	241	1	7	25
+14	5	North	9147	"Gloria Mundi"	856	1	7	26
+14	6	North	1260	"SJC 658"	85	1	7	27
+14	7	North	5096	"Early Banta"	419	1	7	28
+14	8	North	13008	Slor	1190	1	7	29
+14	9	North	3115	"Medaille d'Or"	207	1	7	30
+14	10	North	2227	"Redspur Delicious"	145	1	7	31
+14	11	North	13037	"Beautiful Arcade"	1200	1	7	32
+14	12	North	1106	MN1839	36	1	7	33
+14	13	North	6313	Sinta	1238	1	7	34
+14	14	North	3166	Megumi	221	1	7	35
+14	15	North	9324	Primrouge	914	1	7	36
+14	16	North	12107	"Rubra Precoce Breviglieri"	1174	1	7	37
+14	17	North	11227	Melba	1103	1	7	38
+14	18	North	1115	Keepsake	39	1	7	39
+14	19	North	8087	Jonagram	725	1	7	40
+14	20	North	10235	Porter	991	1	7	41
+14	21	North	6193	"Amere de Bellevue"	557	1	7	42
+14	22	North	13089	Ambrosia	1216	2	7	21
+14	23	North	9294	Jouveaux	904	2	7	22
+14	24	North	3163	"Sweet Delicious"	220	2	7	23
+14	25	North	10256	Primate	998	2	7	24
+14	26	North	10026	"Lyman Prolific"	922	2	7	25
+14	27	North	4250	"Heart of Gold"	357	2	7	26
+14	28	North	6049	"Cestra Belferkitaika"	511	2	7	27
+14	29	North	11156	"Northern Lights"	1079	2	7	28
+14	30	North	5103	"Coe's Golden Drop"	421	2	7	29
+14	31	North	4226	"KAR 24"	350	2	7	30
+14	32	North	5159	"Court Pendu"	440	2	7	31
+14	33	North	8303	Gales	797	2	7	32
+14	34	North	1025	Pristine	9	2	7	33
+14	35	North	8136	"Ellis Bitter"	741	2	7	34
+14	36	North	8061	"Inducoa No. II"	716	2	7	35
+14	37	North	9033	Huidobro	818	2	7	36
+14	38	North	2305	"Kaz 95 18-09"	168	2	7	37
+14	39	North	11266	Lowry	1116	2	7	38
+14	40	North	7303	S10-16-48	691	2	7	39
+14	41	North	3293	"KAS 73"	261	2	7	40
+14	42	North	13111	SweeTango	1232	3	7	22
+14	43	North	2006	"KAZ 96 08-01P-29"	104	3	7	23
+14	44	North	7063	S47-20-38	614	3	7	24
+14	45	North	9088	Holstein	836	3	7	25
+14	46	North	6322	S47-24-04	595	3	7	26
+14	47	North	9019	"King David"	813	3	7	27
+14	48	North	11215	"Pervenec Samarkanda"	1099	3	7	28
+14	49	North	3224	Empress	239	3	7	29
+14	50	North	10268	Odin	1002	3	7	30
+14	51	North	12064	Stroming	1161	3	7	31
+14	52	North	10041	"Pup's Jeannette"	927	3	7	32
+14	53	North	5228	"Autumn Arctic"	463	3	7	33
+14	54	North	10010	"Rosu de Cluj"	917	3	7	34
+14	55	North	10196	"Red Sauce"	978	3	7	35
+14	56	North	12080	"Tom Putt"	1165	3	7	36
+14	57	North	9022	"La Paix"	814	3	7	37
+14	58	North	6041	"Coast Apple"	508	3	7	38
+14	59	North	6181	"Belle Fille"	553	3	7	39
+14	60	North	2048	"Kaz 95 06-08"	1250	3	7	40
+14	61	North	12037	Williams	1152	3	7	41
+14	62	North	1215	MN1797	71	3	7	42
+16	1	North	4008	"KAS 76"	285	1	8	22
+16	2	North	13087	Ambrosia	1216	1	8	23
+16	3	North	7290	S10-17-58	687	1	8	24
+16	4	North	4232	"KAR 30"	352	1	8	25
+16	5	North	12071	Sinta	1239	1	8	26
+16	6	North	6320	S47-21-33	594	1	8	27
+16	7	North	6284	"Gala Must Regal Prince"	584	1	8	28
+16	8	North	7105	S47-21-84	628	1	8	29
+16	9	North	12046	"Zoete Ermgaard"	1155	1	8	30
+16	10	North	5177	"Cornish Gilliflower"	446	1	8	31
+16	11	North	11134	"Reine des Pommes"	1072	1	8	32
+16	12	North	7050	S47-25-72	610	1	8	33
+16	13	North	3160	"KAZ 96 06-01P-28"	219	1	8	34
+16	14	North	1322	"Kaz 95 18-10"	1274	1	8	35
+16	15	North	13029	Snow	1197	1	8	36
+16	16	North	9195	"Frequin Lacaille"	872	1	8	37
+16	17	North	2302	"Granny Smith"	167	1	8	38
+16	18	North	8051	"Laxton's Fortune"	713	1	8	39
+16	19	North	3171	"Golden Delicious"	222	1	8	40
+16	20	North	5106	Brusnichnoe	422	1	8	41
+16	21	North	9084	"Lambrook Pippin"	835	1	8	42
+16	22	North	13109	SweeTango	1232	2	8	21
+16	23	North	11200	Lovell	1094	2	8	22
+16	24	North	1280	"Cotton Candy"	92	2	8	23
+16	25	North	12146	Spencer	1187	2	8	24
+16	26	North	10043	Marquesa	928	2	8	25
+16	27	North	4319	"Colby Baldwin"	380	2	8	26
+16	28	North	3257	"KAS 11"	249	2	8	27
+16	29	North	5153	"Beverly Hills"	438	2	8	28
+16	30	North	4142	"KAS 42"	325	2	8	29
+16	31	North	6019	Akin	501	2	8	30
+16	32	North	11206	Redhook	1096	2	8	31
+16	33	North	5280	Blairmont	480	2	8	32
+16	34	North	7284	S19-15-03	685	2	8	33
+16	35	North	3074	Domaine	196	2	8	34
+16	36	North	11248	"Red Canel"	1110	2	8	35
+16	37	North	9307	Feuillard	908	2	8	36
+16	38	North	8081	"Frequin Audievre"	723	2	8	37
+16	39	North	10244	Nittany	994	2	8	38
+16	40	North	3089	"GMAL 1750"	200	2	8	39
+16	41	North	3259	Orin	250	2	8	40
+16	42	North	13135	Honeycrisp	1223	3	8	22
+16	43	North	6310	Korona	592	3	8	23
+16	44	North	9255	"Kerry Pippin"	892	3	8	24
+16	45	North	3041	"Finson's Orange"	187	3	8	25
+16	46	North	8021	"Hardy Cumberland"	703	3	8	26
+16	47	North	11150	Puregold	1077	3	8	27
+16	48	North	2204	Emilia	137	3	8	28
+16	49	North	1218	Arlet	72	3	8	29
+16	50	North	2101	"Kaz 95 09-02F"	121	3	8	30
+16	51	North	1253	Reglindis	83	3	8	31
+16	52	North	10284	Maunzenapfel	1007	3	8	32
+16	53	North	2125	"KAZ 96 09-05"	1299	3	8	33
+16	54	North	8279	Lande	789	3	8	34
+16	55	North	3238	Hokuto	243	3	8	35
+16	56	North	7054	S47-21-25	611	3	8	36
+16	57	North	4082	"KAR 84"	307	3	8	37
+16	58	North	6253	Cannonball	577	3	8	38
+16	59	North	1061	Judeline	21	3	8	39
+16	60	North	8307	"Hall Keeper"	798	3	8	40
+16	61	North	11066	Notaire	1050	3	8	41
+16	62	North	8284	Lemoen	790	3	8	42
+18	1	North	2200	"Northern Spy"	136	1	9	22
+18	2	North	13107	SweeTango	1232	1	9	23
+18	3	North	5324	"Early Joe"	495	1	9	24
+18	4	North	3124	"KAZ 93-42-01"	210	1	9	25
+18	5	North	2293	Delicious	164	1	9	26
+18	6	North	1229	Redstarkingvale	76	1	9	27
+18	7	North	7297	S19-10-04	689	1	9	28
+18	8	North	6247	"Ottawa 665"	575	1	9	29
+18	9	North	7170	S29-05-38	648	1	9	30
+18	10	North	3268	Sayaka	253	1	9	31
+18	11	North	3323	"Rogers Mac"	271	1	9	32
+18	12	North	1157	Kensei	52	1	9	33
+18	13	North	3246	Akane	245	1	9	34
+18	14	North	12076	"Signe Tillisch"	1164	1	9	35
+18	15	North	10325	"Messire Jacques"	1021	1	9	36
+18	16	North	6028	"Doux Normandie"	504	1	9	37
+18	17	North	1110	"SJCA 14R3A108"	37	1	9	38
+18	18	North	9169	"Golden Nugget"	863	1	9	39
+18	19	North	1284	"K: 1107"	93	1	9	40
+18	20	North	10079	Oriole	940	1	9	41
+18	21	North	8024	Joan	704	1	9	42
+18	22	North	1156	Honeycrisp	1223	2	9	21
+18	23	North	7213	S47-21-24	661	2	9	22
+18	24	North	11092	Rougemont	1059	2	9	23
+18	25	North	5051	Alpinist	404	2	9	24
+18	26	North	5045	Crollon	402	2	9	25
+18	27	North	7029	S14-15-72	1235	2	9	26
+18	28	North	7131	S20-07-41	637	2	9	27
+18	29	North	10223	"Red Spy"	987	2	9	28
+18	30	North	6256	Ribston	1233	2	9	29
+18	31	North	5189	"Collamer Twenty Ounce"	450	2	9	30
+18	32	North	8234	Lakeland	774	2	9	31
+18	33	North	6226	"Annie Elizabeth"	568	2	9	32
+18	34	North	13040	"Nova Russet"	1201	2	9	33
+18	35	North	11231	"Rose de Benauge"	1104	2	9	34
+18	36	North	3130	"GMAL 3244"	211	2	9	35
+18	37	North	8073	Korallo	720	2	9	36
+18	38	North	11179	"Peypring Cerueuko"	1087	2	9	37
+18	39	North	11041	"Roter Eiserapfel"	1042	2	9	38
+18	40	North	6223	Bietigheimer	567	2	9	39
+18	41	North	7143	S23-03-20	641	2	9	40
+18	42	North	13091	Ambrosia	1216	3	9	22
+18	43	North	5120	Blair	427	3	9	23
+18	44	North	5301	"Belle Norman"	487	3	9	24
+18	45	North	2104	"Kaz 95 18-04"	1271	3	9	25
+18	46	North	7188	S12-31-18	654	3	9	26
+18	47	North	10172	Niagara	971	3	9	27
+18	48	North	11044	"Lubec #1"	1043	3	9	28
+18	49	North	6211	Dunning	563	3	9	29
+18	50	North	2311	"KAZ 96 07-10"	170	3	9	30
+18	51	North	10109	Reta	950	3	9	31
+18	52	North	5285	"Court Royal"	482	3	9	32
+18	53	North	1041	"CBR 4T 29"	14	3	9	33
+18	54	North	12025	"Teign Harvey"	1148	3	9	34
+18	55	North	11009	"Malt Bagaevskii"	1031	3	9	35
+18	56	North	3077	"GMAL 2251"	197	3	9	36
+18	57	North	9201	Kemp	874	3	9	37
+18	58	North	10334	Pederstrup	1024	3	9	38
+18	59	North	2278	"Fuji Red Sport Type 2"	160	3	9	39
+18	60	North	8271	"Geoagiu 21"	786	3	9	40
+18	61	North	4059	"KAR 105"	300	3	9	41
+18	62	North	4148	"KAR 35"	327	3	9	42
+2	1	South	8140	"Golden Reinette"	742	1	1	22
+2	2	South	13139	Honeycrisp	1223	1	1	23
+2	3	South	5251	"Barkley Rome"	470	1	1	24
+2	4	South	8235	Lakeland	774	1	1	25
+2	5	South	2019	"Kaz 95 18-08"	107	1	1	26
+2	6	South	5227	"Crawley Reinette"	462	1	1	27
+2	7	South	5260	"Crimson King"	473	1	1	28
+2	8	South	2120	"KAZ 96 02-01P-11"	1280	1	1	29
+2	9	South	7067	S42-61-05	615	1	1	30
+2	10	South	2271	"Korichnoe Polosatoje"	157	1	1	31
+2	11	South	8311	"Gibbs Golden Gage"	799	1	1	32
+2	12	South	2103	"Kaz 95 09-02F"	121	1	1	33
+2	13	South	4123	"KAR 108"	318	1	1	34
+2	14	South	5076	Edelborsdorfer	412	1	1	35
+2	15	South	5148	"American Forestier"	436	1	1	36
+2	16	South	6311	Korona	592	1	1	37
+2	17	South	5071	Dufflin	410	1	1	38
+2	18	South	12024	"Stone Pippin"	1147	1	1	39
+2	19	South	4231	"KAR 5"	351	1	1	40
+2	20	South	3201	Senshu	232	1	1	41
+2	21	South	8302	Goldjon	796	1	1	42
+2	22	South	13093	Ambrosia	1216	2	1	21
+2	23	South	1186	Piflora	61	2	1	22
+2	24	South	4234	"KAR 30"	352	2	1	23
+2	25	South	4072	"KAS 67"	1227	2	1	24
+2	26	South	7214	S47-21-24	661	2	1	25
+2	27	South	11331	"Seestermuher Zitronenapfel"	1137	2	1	26
+2	28	South	3002	"Mollie's Delicious"	177	2	1	27
+2	29	South	8203	"Grosse Mouche"	763	2	1	28
+2	30	South	13027	Suislepper	1196	2	1	29
+2	31	South	9234	"Jones Favorite"	885	2	1	30
+2	32	South	12117	Slocan	1177	2	1	31
+2	33	South	3264	Red-Del-Stark	251	2	1	32
+2	34	South	5284	Bouteille	481	2	1	33
+2	35	South	2210	"Nova Easygro"	139	2	1	34
+2	36	South	4162	"KAS 48"	331	2	1	35
+2	37	South	9185	Linda	868	2	1	36
+2	38	South	7012	S23-06-133	600	2	1	37
+2	39	South	4222	"KAR 37"	348	2	1	38
+2	40	South	6225	Bietigheimer	567	2	1	39
+2	41	South	5230	"Autumn Arctic"	463	2	1	40
+2	42	South	13124	SweeTango	1232	3	1	22
+2	43	South	12138	Sensacion	1184	3	1	23
+2	44	South	11240	"Potter Cox"	1107	3	1	24
+2	45	South	8110	Jubillee	732	3	1	25
+2	46	South	10261	Muz-alma	999	3	1	26
+2	47	South	6059	Dakota	514	3	1	27
+2	48	South	10084	"Reinette do Chenee"	941	3	1	28
+2	49	South	5155	"Beverly Hills"	438	3	1	29
+2	50	South	10335	Pederstrup	1024	3	1	30
+2	51	South	9199	"King of the Pippins"	873	3	1	31
+2	52	South	1327	"KAZ 96 03-11"	101	3	1	32
+2	53	South	5062	"Dermen Black Stayman"	407	3	1	33
+2	54	South	4269	"KAR 14"	363	3	1	34
+2	55	South	4087	"KAS 40"	308	3	1	35
+2	56	South	7049	S47-24-47	609	3	1	36
+2	57	South	10180	"Oekonomierat Echter-meyer"	973	3	1	37
+2	58	South	4258	"KAR 26"	359	3	1	38
+2	59	South	4338	"Coombs Wealthy"	386	3	1	39
+2	60	South	3336	"KAS 57"	275	3	1	40
+2	61	South	4003	"KAS 63"	283	3	1	41
+2	62	South	2154	"Kaz 95 09-03F"	129	3	1	42
+4	1	South	11187	Ogden	1089	1	2	22
+4	2	South	13095	Ambrosia	1216	1	2	23
+4	3	South	11210	"Oratia Beauty"	1097	1	2	24
+4	4	South	10167	"Pfirsichroter Sommerapfel"	969	1	2	25
+4	5	South	13056	Tayeshnoe	1206	1	2	26
+4	6	South	9271	Kamsomolez	897	1	2	27
+4	7	South	2247	"KAZ 93-24-01"	149	1	2	28
+4	8	South	12011	"Teint Fraise"	1143	1	2	29
+4	9	South	3165	"Sweet Delicious"	220	1	2	30
+4	10	South	6050	"Cestra Belferkitaika"	511	1	2	31
+4	11	South	8293	"Kandil Sinap"	793	1	2	32
+4	12	South	11162	"Pumpkin Sweet"	1081	1	2	33
+4	13	South	9263	"John Standish"	894	1	2	34
+4	14	South	10042	"Pup's Jeannette"	927	1	2	35
+4	15	South	5140	"Captain Kidd"	433	1	2	36
+4	16	South	5257	"Crimson Bramley"	472	1	2	37
+4	17	South	4108	"KAR 51"	315	1	2	38
+4	18	South	2124	"Kaz 95 18-02P-31"	1261	1	2	39
+4	19	South	2334	"KAZ 96 07-07"	1288	1	2	40
+4	20	South	4302	Bisbee	374	1	2	41
+4	21	South	10140	Princesa	960	1	2	42
+4	22	South	13117	SweeTango	1232	2	2	21
+4	23	South	4324	Carola	381	2	2	22
+4	24	South	10009	"Morden 363"	916	2	2	23
+4	25	South	5104	"Coe's Golden Drop"	421	2	2	24
+4	26	South	9065	"Lord Seedling"	828	2	2	25
+4	27	South	3059	"GMAL 3163"	193	2	2	26
+4	28	South	5197	Britemac	452	2	2	27
+4	29	South	9181	Iunost	867	2	2	28
+4	30	South	10197	"Red Sauce"	978	2	2	29
+4	31	South	10093	Quinte	944	2	2	30
+4	32	South	4095	"KAR 81"	311	2	2	31
+4	33	South	5239	Chieftain	466	2	2	32
+4	34	South	5212	"Early Crimson"	457	2	2	33
+4	35	South	8296	"Frequin Tardive de la Sarthe"	794	2	2	34
+4	36	South	9055	Garland	825	2	2	35
+4	37	South	10104	Mantuanskoye	948	2	2	36
+4	38	South	6090	Dulcina	524	2	2	37
+4	39	South	2013	"KAZ 96 07-01P-24"	106	2	2	38
+4	40	South	11075	Major	1053	2	2	39
+4	41	South	8112	"Golden Harvey"	733	2	2	40
+4	42	South	13143	Honeycrisp	1223	3	2	22
+4	43	South	2324	"GMAL 3265"	172	3	2	23
+4	44	South	8242	Fillbarrel	776	3	2	24
+4	45	South	5193	Damelot	451	3	2	25
+4	46	South	9071	"Golden Noble"	830	3	2	26
+4	47	South	10269	Odin	1002	3	2	27
+4	48	South	2228	"Redspur Delicious"	145	3	2	28
+4	49	South	5247	"Amur Naliv"	469	3	2	29
+4	50	South	3182	"Rome Beauty Law"	226	3	2	30
+4	51	South	3116	"Medaille d'Or"	207	3	2	31
+4	52	South	3249	"Buckeye Gala"	246	3	2	32
+4	53	South	10050	Renown	930	3	2	33
+4	54	South	8034	Krapchatoe	707	3	2	34
+4	55	South	8281	Lande	789	3	2	35
+4	56	South	13072	"Tohoku 2"	1211	3	2	36
+4	57	South	5097	"Early Banta"	419	3	2	37
+4	58	South	2252	"KAZ 93-12-02"	151	3	2	38
+4	59	South	3120	"Rosemary Russet"	208	3	2	39
+4	60	South	8278	Fallawater	788	3	2	40
+4	61	South	10216	"Ottawa 271"	984	3	2	41
+4	62	South	4174	"Sid the Kid"	335	3	2	42
+6	1	South	9018	"King David"	813	1	3	22
+6	2	South	13114	SweeTango	1232	1	3	23
+6	3	South	1018	Judaine	6	1	3	24
+6	4	South	6080	"Doucet Rouge"	521	1	3	25
+6	5	South	11141	"Peau de Vache"	1074	1	3	26
+6	6	South	10017	"Rouge Belle de Boskoop"	919	1	3	27
+6	7	South	11309	"Twistbody Jersey"	1130	1	3	28
+6	8	South	2267	"Cherry Cox"	156	1	3	29
+6	9	South	3347	"KAS 65"	279	1	3	30
+6	10	South	1212	Blackmac	70	1	3	31
+6	11	South	1059	"Romus 3"	20	1	3	32
+6	12	South	3269	Sayaka	253	1	3	33
+6	13	South	11022	Nubeena	1035	1	3	34
+6	14	South	5172	Benoni	444	1	3	35
+6	15	South	7250	S38-04-01	673	1	3	36
+6	16	South	13009	Slor	1190	1	3	37
+6	17	South	8314	"Merton 778"	800	1	3	38
+6	18	South	6216	Cole	564	1	3	39
+6	19	South	3314	"KAR 80"	268	1	3	40
+6	20	South	4135	"KAR 113"	322	1	3	41
+6	21	South	10189	Primus	976	1	3	42
+6	22	South	13145	Honeycrisp	1223	2	3	21
+6	23	South	6210	Bramley	562	2	3	22
+6	24	South	2085	"Kaz 95 05-01P-25"	118	2	3	23
+6	25	South	10297	"Reinette Grise"	1011	2	3	24
+6	26	South	3294	"KAS 73"	261	2	3	25
+6	27	South	9316	"Harry Masters Jersey"	911	2	3	26
+6	28	South	9203	Kemp	874	2	3	27
+6	29	South	10227	"Reveles Bumbierabols"	988	2	3	28
+6	30	South	13035	"Stahls Prinz"	1199	2	3	29
+6	31	South	2337	"Antonovka 1.5 pounds"	174	2	3	30
+6	32	South	10015	Luke	918	2	3	31
+6	33	South	8232	Korobovka	773	2	3	32
+6	34	South	11301	"Ruhm aus Kirchwarder"	1127	2	3	33
+6	35	South	13020	Sylvia	1194	2	3	34
+6	36	South	1063	Judeline	21	2	3	35
+6	37	South	9253	Khashabi	891	2	3	36
+6	38	South	7253	S42-40-09	674	2	3	37
+6	39	South	1320	"KAZ 96 09-01P-2"	1294	2	3	38
+6	40	South	3258	"KAS 11"	249	2	3	39
+6	41	South	7019	S47-23-22	602	2	3	40
+6	42	South	13101	Ambrosia	1216	3	3	22
+6	43	South	9032	Kile	817	3	3	23
+6	44	South	11324	"Suislepas Rozabols"	1135	3	3	24
+6	45	South	6018	"Apfel aus Grunheide"	500	3	3	25
+6	46	South	3330	"KAR 90"	273	3	3	26
+6	47	South	9061	Ermak	827	3	3	27
+6	48	South	6255	Cannonball	577	3	3	28
+6	49	South	6027	"Berner Rosen"	503	3	3	29
+6	50	South	6152	Boche	543	3	3	30
+6	51	South	1285	"K: 1107"	93	3	3	31
+6	52	South	5020	"Directeur Lesage"	393	3	3	32
+6	53	South	1237	NY74828	77	3	3	33
+6	54	South	6030	"Doux Normandie"	504	3	3	34
+6	55	South	9103	Kinsei	841	3	3	35
+6	56	South	10233	"Muscadet de Dieppe"	990	3	3	36
+6	57	South	3279	Boughsweet	256	3	3	37
+6	58	South	5005	"Belle Imperiale"	388	3	3	38
+6	59	South	2310	Summerred	169	3	3	39
+6	60	South	11222	"Reineta do Caravia"	1101	3	3	40
+6	61	South	9251	"Grise Dieppoise"	890	3	3	41
+6	62	South	5200	Canavial-14	453	3	3	42
+8	1	South	9146	Euzia	855	1	4	22
+8	2	South	13137	Honeycrisp	1223	1	4	23
+8	3	South	4173	"Sid the Kid"	335	1	4	24
+8	4	South	9325	Primrouge	914	1	4	25
+8	5	South	3153	"KAZ 96 08-16"	217	1	4	26
+8	6	South	6213	Dunning	563	1	4	27
+8	7	South	5167	Charlamoff	442	1	4	28
+8	8	South	3234	MN1849	241	1	4	29
+8	9	South	5254	"Deacon Jones"	471	1	4	30
+8	10	South	7285	S19-15-03	685	1	4	31
+8	11	South	9281	Kosmonaut	899	1	4	32
+8	12	South	1254	Reglindis	83	1	4	33
+8	13	South	8197	"Gros Frequin"	761	1	4	34
+8	14	South	6135	"Binet Rouge"	537	1	4	35
+8	15	South	11096	Martha	1060	1	4	36
+8	16	South	7202	S47-23-52	657	1	4	37
+8	17	South	1303	"Egremont Russet"	99	1	4	38
+8	18	South	10315	"Maiden Blush"	1017	1	4	39
+8	19	South	8023	"Hardy Cumberland"	703	1	4	40
+8	20	South	8214	Livadiyskoye	767	1	4	41
+8	21	South	3075	Domaine	196	1	4	42
+8	22	South	13099	Ambrosia	1216	2	4	21
+8	23	South	12060	Wright	1159	2	4	22
+8	24	South	8224	"Golden Russet"	770	2	4	23
+8	25	South	5028	"Crow Egg"	396	2	4	24
+8	26	South	1162	"SPA 505"	53	2	4	25
+8	27	South	6033	Alkmene	505	2	4	26
+8	28	South	11124	"Red Ralls"	1068	2	4	27
+8	29	South	2147	"KAZ 96 03-15"	127	2	4	28
+8	30	South	12063	"Tydemans Early Worcester"	1160	2	4	29
+8	31	South	1153	Maigold	51	2	4	30
+8	32	South	10054	Orei	931	2	4	31
+8	33	South	1287	S47-20-037	94	2	4	32
+8	34	South	3114	Idagold	206	2	4	33
+8	35	South	3219	"SJC A 37+"	237	2	4	34
+8	36	South	6228	"Annie Elizabeth"	568	2	4	35
+8	37	South	4033	"KAS 66"	293	2	4	36
+8	38	South	2195	Cortland	134	2	4	37
+8	39	South	5113	"Bessemianka Michurina"	424	2	4	38
+8	40	South	8089	Jonagram	725	2	4	39
+8	41	South	12093	"Stembridge Cluster"	1169	2	4	40
+8	42	South	13119	SweeTango	1232	3	4	22
+8	43	South	6294	Jonasty	587	3	4	23
+8	44	South	4017	"KAS 50"	288	3	4	24
+8	45	South	1225	"Sir Prize"	74	3	4	25
+8	46	South	6150	"Del Cirio"	542	3	4	26
+8	47	South	2279	"Fuji Red Sport Type 2"	160	3	4	27
+8	48	South	8308	"Hall Keeper"	798	3	4	28
+8	49	South	6105	Balancier	1240	3	4	29
+8	50	South	9140	Komlensk	853	3	4	30
+8	51	South	7186	S47-25-82	653	3	4	31
+8	52	South	7055	S47-21-25	611	3	4	32
+8	53	South	4194	"KAS 20"	342	3	4	33
+8	54	South	11132	"Red Cinnamon"	1071	3	4	34
+8	55	South	8247	Idajon	778	3	4	35
+8	56	South	11319	"Trembletts Bitter"	1133	3	4	36
+8	57	South	6282	Milwaukee	1230	3	4	37
+8	58	South	2243	"Marshall McIntosh"	148	3	4	38
+8	59	South	11108	"Reinette Thouin"	1063	3	4	39
+8	60	South	10081	Oriole	940	3	4	40
+8	61	South	8194	King	760	3	4	41
+8	62	South	10202	"Mitschurins Samenloser"	980	3	4	42
+10	1	South	4164	"KAS 44"	332	1	5	22
+10	2	South	13094	Ambrosia	1216	1	5	23
+10	3	South	10057	Paulista	932	1	5	24
+10	4	South	9193	Honora	871	1	5	25
+10	5	South	10029	"Richland Crab"	923	1	5	26
+10	6	South	4263	"KAR 31"	361	1	5	27
+10	7	South	5217	Drakenstein	459	1	5	28
+10	8	South	1252	Remura	82	1	5	29
+10	9	South	3014	"GMAL 3310"	180	1	5	30
+10	10	South	7114	S47-21-29	631	1	5	31
+10	11	South	11088	Malabols	1057	1	5	32
+10	12	South	6242	"Bashkirian Beauty"	573	1	5	33
+10	13	South	5064	"Clear Heart"	408	1	5	34
+10	14	South	9145	Euzia	855	1	5	35
+10	15	South	9059	Goldsmith	826	1	5	36
+10	16	South	3345	"KAR 91"	278	1	5	37
+10	17	South	13054	"St. Anna Rode Boskoop"	1205	1	5	38
+10	18	South	9269	Gilliflower	896	1	5	39
+10	19	South	6144	Dukat	540	1	5	40
+10	20	South	4329	"Black Crofton"	383	1	5	41
+10	21	South	5220	Akero	460	1	5	42
+10	22	South	13115	SweeTango	1232	2	5	21
+10	23	South	8230	"Kitaika Zolotaia Ranniaia"	772	2	5	22
+10	24	South	7300	S10-16-14	690	2	5	23
+10	25	South	1192	Aroma	63	2	5	24
+10	26	South	1216	MN1797	71	2	5	25
+10	27	South	10206	"Prairie Spy"	981	2	5	26
+10	28	South	9073	"Jewett Red"	831	2	5	27
+10	29	South	7094	S42-08-08	624	2	5	28
+10	30	South	2049	"Kaz 95 06-08"	1250	2	5	29
+10	31	South	10213	Pigeonnet	983	2	5	30
+10	32	South	6120	Crookston	533	2	5	31
+10	33	South	4177	"KAR 2"	336	2	5	32
+10	34	South	6047	Charden	510	2	5	33
+10	35	South	11295	"Reinette van Ekenstein"	1125	2	5	34
+10	36	South	4125	"KAR 99"	319	2	5	35
+10	37	South	1134	Melrose	45	2	5	36
+10	38	South	3290	"KAS 60"	260	2	5	37
+10	39	South	3203	MN1802	233	2	5	38
+10	40	South	4060	"KAR 105"	300	2	5	39
+10	41	South	6111	"Berlepsch Red"	530	2	5	40
+10	42	South	13142	Honeycrisp	1223	3	5	22
+10	43	South	3198	"Coxs Orange"	231	3	5	23
+10	44	South	10044	Marquesa	928	3	5	24
+10	45	South	1309	"Kaz 95 05-01P-5"	1246	3	5	25
+10	46	South	4191	"KAS 8"	341	3	5	26
+10	47	South	4039	"KAS 47"	1226	3	5	27
+10	48	South	7058	S47-21-32	612	3	5	28
+10	49	South	6221	Benham	566	3	5	29
+10	50	South	6167	"Belle de Boskoop"	548	3	5	30
+10	51	South	1227	Resi	75	3	5	31
+10	52	South	8103	"Gold Canel"	730	3	5	32
+10	53	South	4219	"KAR 32"	347	3	5	33
+10	54	South	2303	"Granny Smith"	167	3	5	34
+10	55	South	10225	"Red Spy"	987	3	5	35
+10	56	South	7289	S10-13-28	686	3	5	36
+10	57	South	6233	"Bowden Seedling"	570	3	5	37
+10	58	South	3018	Viking	181	3	5	38
+10	59	South	5298	Brettacher	486	3	5	39
+10	60	South	1149	8S-29-18	50	3	5	40
+10	61	South	9092	"Granite Beauty"	837	3	5	41
+10	62	South	10294	Metais	1010	3	5	42
+12	1	South	3270	Sayaka	253	1	6	22
+12	2	South	13113	SweeTango	1232	1	6	23
+12	3	South	10257	Primate	998	1	6	24
+12	4	South	8209	"Hudson's Golden Gem"	765	1	6	25
+12	5	South	5035	Carroll	398	1	6	26
+12	6	South	10303	"Old Pearmain"	1013	1	6	27
+12	7	South	10110	Reta	950	1	6	28
+12	8	South	3222	Chinook	238	1	6	29
+12	9	South	4147	Evangeline	326	1	6	30
+12	10	South	1264	"SJC 686-1"	86	1	6	31
+12	11	South	12070	Sinta	1239	1	6	32
+12	12	South	1084	Macfree	28	1	6	33
+12	13	South	3189	"Reinette Russet"	228	1	6	34
+12	14	South	7082	Sunrise	620	1	6	35
+12	15	South	3147	"KAZ 95 08-06"	215	1	6	36
+12	16	South	8037	Jonathan	708	1	6	37
+12	17	South	5326	"Early Joe"	495	1	6	38
+12	18	South	5053	Alpinist	404	1	6	39
+12	19	South	5046	Crollon	402	1	6	40
+12	20	South	3026	Monroe	183	1	6	41
+12	21	South	2214	"Rambo-Red Summer"	140	1	6	42
+12	22	South	13140	Honeycrisp	1223	2	6	21
+12	23	South	9311	"King Edward VII"	909	2	6	22
+12	24	South	3131	"GMAL 3244"	211	2	6	23
+12	25	South	12081	"Tom Putt"	1165	2	6	24
+12	26	South	1030	Vanda	10	2	6	25
+12	27	South	11013	Nanny	1032	2	6	26
+12	28	South	9308	Feuillard	908	2	6	27
+12	29	South	10033	"Oliver or Senator"	924	2	6	28
+12	30	South	5124	Brazil	428	2	6	29
+12	31	South	4243	"KAS 19"	355	2	6	30
+12	32	South	2130	"KAZ 96 08-01P-37"	1291	2	6	31
+12	33	South	9164	"Lemon Pippin"	861	2	6	32
+12	34	South	2261	Clivia	154	2	6	33
+12	35	South	1257	Murray	84	2	6	34
+12	36	South	5275	"Bob White"	478	2	6	35
+12	37	South	12111	Tioga	1175	2	6	36
+12	38	South	4093	"KAS 70"	310	2	6	37
+12	39	South	5323	"Blanc Mollet"	494	2	6	38
+12	40	South	11178	"Pomme Grise"	1086	2	6	39
+12	41	South	6204	Champlain	560	2	6	40
+12	42	South	13097	Ambrosia	1216	3	6	22
+12	43	South	9188	Foxwhelp	869	3	6	23
+12	44	South	8253	Goodland	780	3	6	24
+12	45	South	10108	Malinda	949	3	6	25
+12	46	South	11027	Redgold	1037	3	6	26
+12	47	South	10329	"March #1"	1022	3	6	27
+12	48	South	9136	"Ikorocavka Alaja"	852	3	6	28
+12	49	South	7085	S42-39-10	621	3	6	29
+12	50	South	6069	Barry	517	3	6	30
+12	51	South	5316	Beforest	492	3	6	31
+12	52	South	4111	"KAR 82"	316	3	6	32
+12	53	South	5175	Atlas	445	3	6	33
+12	54	South	10039	Oswego	926	3	6	34
+12	55	South	11070	Paragon	1051	3	6	35
+12	56	South	2346	"KAZ 96 07-03"	1284	3	6	36
+12	57	South	5187	Delikates	449	3	6	37
+12	58	South	10300	Murasaki	1012	3	6	38
+12	59	South	11286	Melon	1122	3	6	39
+12	60	South	9125	"Jakob Fischer"	848	3	6	40
+12	61	South	6024	Cartigny	502	3	6	41
+12	62	South	11234	"Reinette Jaeghers"	1105	3	6	42
+14	1	South	3040	"Finson's Orange"	187	1	7	22
+14	2	South	13141	Honeycrisp	1223	1	7	23
+14	3	South	3035	"KAZ 96 08-15"	185	1	7	24
+14	4	South	2078	"Kaz 95 18-06"	117	1	7	25
+14	5	South	4137	"KAR 114"	323	1	7	26
+14	6	South	12048	"Zoete Ermgaard"	1155	1	7	27
+14	7	South	12018	"Schoner aus Miltenberg"	1145	1	7	28
+14	8	South	4140	"KAR 111"	324	1	7	29
+14	9	South	11186	Ogden	1089	1	7	30
+14	10	South	5095	Anisim	418	1	7	31
+14	11	South	8272	"Geoagiu 21"	786	1	7	32
+14	12	South	4245	"KAR 25"	356	1	7	33
+14	13	South	5158	"Blenheim Orange"	439	1	7	34
+14	14	South	11085	"Renetta Dorata"	1056	1	7	35
+14	15	South	11166	Paulared	1082	1	7	36
+14	16	South	6200	"Adersleber Kalvill"	559	1	7	37
+14	17	South	2063	"Kaz 95 08-06"	1254	1	7	38
+14	18	South	2091	"Kaz 95 08-04"	120	1	7	39
+14	19	South	10339	"Pomme Cloche"	1025	1	7	40
+14	20	South	3252	"Geneva early"	247	1	7	41
+14	21	South	6173	"Binet Blanc"	550	1	7	42
+14	22	South	13098	Ambrosia	1216	2	7	21
+14	23	South	2193	"Banon's Seedling"	133	2	7	22
+14	24	South	5002	"Charles Ross"	387	2	7	23
+14	25	South	1120	Braeburn	40	2	7	24
+14	26	South	3053	Burgundy	191	2	7	25
+14	27	South	6252	"Tom McLean"	576	2	7	26
+14	28	South	1081	NA	27	2	7	27
+14	29	South	6195	"Amere de Bellevue"	557	2	7	28
+14	30	South	1138	"8C 18 30"	46	2	7	29
+14	31	South	11040	"Marin Onfroy"	1041	2	7	30
+14	32	South	1072	Britegold	24	2	7	31
+14	33	South	3083	"KAZ 96 05-05"	1282	2	7	32
+14	34	South	1204	Elstar	67	2	7	33
+14	35	South	3057	Surprise	192	2	7	34
+14	36	South	8125	Greendale	737	2	7	35
+14	37	South	5080	Discovery	413	2	7	36
+14	38	South	2081	"Kaz 95 08-01"	1252	2	7	37
+14	39	South	8239	Karastojanka	775	2	7	38
+14	40	South	9323	Loyalist	913	2	7	39
+14	41	South	4030	"KAR 88"	292	2	7	40
+14	42	South	13123	SweeTango	1232	3	7	22
+14	43	South	3225	Empress	239	3	7	23
+14	44	South	11006	"Lorna Doone"	1030	3	7	24
+14	45	South	11307	Smordodina	1129	3	7	25
+14	46	South	10078	"Merton Delight"	939	3	7	26
+14	47	South	11261	Oldenburg	1114	3	7	27
+14	48	South	5184	"Black Oxford"	448	3	7	28
+14	49	South	6237	Amelia	571	3	7	29
+14	50	South	7117	S47-25-48	632	3	7	30
+14	51	South	6296	"Reine des Reinettes"	588	3	7	31
+14	52	South	3176	Spartan	224	3	7	32
+14	53	South	9080	Hoover	833	3	7	33
+14	54	South	12086	"Yellow Bellflower"	1167	3	7	34
+14	55	South	11157	"Northern Lights"	1079	3	7	35
+14	56	South	12009	"Saltcote Pipin"	1142	3	7	36
+14	57	South	6102	"Dunkerton Late Sweet"	528	3	7	37
+14	58	South	1105	"8B 14 56"	35	3	7	38
+14	59	South	10095	"Pomme Thoury"	945	3	7	39
+14	60	South	5164	"Brown's Apple"	441	3	7	40
+14	61	South	1117	Keepsake	39	3	7	41
+14	62	South	6194	"Amere de Bellevue"	557	3	7	42
+16	1	South	2318	Empire	171	1	8	22
+16	2	South	13096	Ambrosia	1216	1	8	23
+16	3	South	10195	Macoun	1229	1	8	24
+16	4	South	10276	Lurared	1004	1	8	25
+16	5	South	11073	"Pott's Seedling"	1052	1	8	26
+16	6	South	4045	"KAR 101"	296	1	8	27
+16	7	South	8218	Frequin	768	1	8	28
+16	8	South	5320	"Anis Aliy K-32"	493	1	8	29
+16	9	South	11025	"Purpurroter Cousinot"	1036	1	8	30
+16	10	South	11313	Starking	1131	1	8	31
+16	11	South	3086	"Barenhecke 3 x Klipphausen"	199	1	8	32
+16	12	South	1066	Voinea	22	1	8	33
+16	13	South	7136	S23-04-570	638	1	8	34
+16	14	South	8062	"Inducoa No. II"	716	1	8	35
+16	15	South	10099	"Middleton Fameuse"	946	1	8	36
+16	16	South	3045	Jonamac	188	1	8	37
+16	17	South	5233	Brunnerling	464	1	8	38
+16	18	South	2187	"Rhode Island Greening"	131	1	8	39
+16	19	South	2001	"Kaz 95 05-01P-22"	1242	1	8	40
+16	20	South	4015	"KAS 61"	287	1	8	41
+16	21	South	2250	"James Grieve (Red Rosamund strain)"	150	1	8	42
+16	22	South	13118	SweeTango	1232	2	8	21
+16	23	South	4276	"Circassian Apple"	365	2	8	22
+16	24	South	5235	"Coat Jersey"	465	2	8	23
+16	25	South	9094	Herma	838	2	8	24
+16	26	South	1242	Novamac	79	2	8	25
+16	27	South	10185	Redwell	975	2	8	26
+16	28	South	1057	"Crimson Crisp"	19	2	8	27
+16	29	South	3110	Gala	205	2	8	28
+16	30	South	8106	Launette	731	2	8	29
+16	31	South	9110	"Erwin Bauer"	843	2	8	30
+16	32	South	9277	"Exeter Cross"	898	2	8	31
+16	33	South	4021	"KAR 112"	289	2	8	32
+16	34	South	9034	Huidobro	818	2	8	33
+16	35	South	4306	"Dekkers Glorie"	375	2	8	34
+16	36	South	2181	"KAZ 96 09-02"	1296	2	8	35
+16	37	South	3102	"KAZ 96 08-17"	1292	2	8	36
+16	38	South	2024	"Kaz 95 18-02P-20"	108	2	8	37
+16	39	South	7205	S29-08-17	658	2	8	38
+16	40	South	8014	S16-15-106	700	2	8	39
+16	41	South	4287	Dudley	369	2	8	40
+16	42	South	13144	Honeycrisp	1223	3	8	22
+16	43	South	12144	"San Juan"	1186	3	8	23
+16	44	South	10147	"Mleevskaya Crasavitsa"	962	3	8	24
+16	45	South	11061	"Red Cox's Pomona"	1048	3	8	25
+16	46	South	9142	"Golden Precoce"	854	3	8	26
+16	47	South	6258	Ribston	1233	3	8	27
+16	48	South	10117	Novinka	952	3	8	28
+16	49	South	10063	"Ottawa 292"	934	3	8	29
+16	50	South	11175	Medina	1085	3	8	30
+16	51	South	5134	Arkansas	431	3	8	31
+16	52	South	5146	Bean	435	3	8	32
+16	53	South	12039	Williams	1152	3	8	33
+16	54	South	6114	"C'Huero Biz Bras"	531	3	8	34
+16	55	South	7247	S38-03-25	672	3	8	35
+16	56	South	2216	"Red Apple"	141	3	8	36
+16	57	South	10251	Rokewood	996	3	8	37
+16	58	South	10245	Nittany	994	3	8	38
+16	59	South	6147	"Arkad Zimnyi"	541	3	8	39
+16	60	South	10311	"Monmouth Beauty"	1016	3	8	40
+16	61	South	2054	"Kaz 95 18-11"	113	3	8	41
+16	62	South	11249	"Red Canel"	1110	3	8	42
+18	1	South	5004	"Belle Imperiale"	388	1	9	22
+18	2	South	13116	SweeTango	1232	1	9	23
+18	3	South	13006	"Worcester Pearmain"	1189	1	9	24
+18	4	South	9043	Ingram	821	1	9	25
+18	5	South	8260	Harcourt	782	1	9	26
+18	6	South	2133	"KAZ 96 02-01P-6"	123	1	9	27
+18	7	South	2255	"Kimball McIntosh 2-4-4-4"	152	1	9	28
+18	8	South	10285	Maunzenapfel	1007	1	9	29
+18	9	South	13084	Vogelcalville	1215	1	9	30
+18	10	South	7070	S41-11-03	616	1	9	31
+18	11	South	8274	Kanorkowa	787	1	9	32
+18	12	South	2010	"KAZ 96 06-01P-23"	105	1	9	33
+18	13	South	11184	Quindell	1088	1	9	34
+18	14	South	9190	Langworthy	870	1	9	35
+18	15	South	8091	"Lombart's Calville"	726	1	9	36
+18	16	South	7235	S31-04-41	668	1	9	37
+18	17	South	5135	Earliblaze	432	1	9	38
+18	18	South	6261	Astrachan	578	1	9	39
+18	19	South	7277	S19-33-04	682	1	9	40
+18	20	South	1164	8S-26-52	54	1	9	41
+18	21	South	2166	"KAZ 96 09-01P-4"	130	1	9	42
+18	22	South	13138	Honeycrisp	1223	2	9	21
+18	23	South	11048	Milton	1044	2	9	22
+18	24	South	11082	"Red Joaneting"	1055	2	9	23
+18	25	South	9134	"Johannes Bottner"	851	2	9	24
+18	26	South	4252	"Heart of Gold"	357	2	9	25
+18	27	South	9161	"Elisa Ratkee"	860	2	9	26
+18	28	South	1273	Galarina	89	2	9	27
+18	29	South	10071	"Ohio Nonpareil"	937	2	9	28
+18	30	South	11018	"Nitschners Erdbeerapfel"	1034	2	9	29
+18	31	South	12068	"Zimnieje Piervoskhodnoie"	1162	2	9	30
+18	32	South	6231	"Bella di Pontoise"	569	2	9	31
+18	33	South	7255	S19-23-52	675	2	9	32
+18	34	South	11003	"Norfolk Royal"	1029	2	9	33
+18	35	South	3039	"Pacific Gold"	186	2	9	34
+18	36	South	5056	"Belle de Nordhaussen"	405	2	9	35
+18	37	South	5131	"Devonshire Quarrenden"	430	2	9	36
+18	38	South	8029	"King Harry"	705	2	9	37
+18	39	South	4212	"KAR 29"	1225	2	9	38
+18	40	South	1020	Novaspy	7	2	9	39
+18	41	South	11172	"Paides Ziemas Abols"	1084	2	9	40
+18	42	South	13100	Ambrosia	1216	3	9	22
+18	43	South	5025	Alton	395	3	9	23
+18	44	South	3021	"Ozark Gold"	182	3	9	24
+18	45	South	5268	Antonovka	476	3	9	25
+18	46	South	5223	"Beauty of Bath"	461	3	9	26
+18	47	South	10231	"Roxbury Russet"	989	3	9	27
+18	48	South	3228	"Gloster 69"	1219	3	9	28
+18	49	South	10024	"Red Belflower"	921	3	9	29
+18	50	South	8167	"Krievu Rosmarins"	751	3	9	30
+18	51	South	8299	Fireside	795	3	9	31
+18	52	South	10162	Norland	967	3	9	32
+18	53	South	4179	"KAR 34"	337	3	9	33
+18	54	South	9226	Katja	882	3	9	34
+18	55	South	7184	S47-23-49	652	3	9	35
+18	56	South	5038	Cleopatra	399	3	9	36
+18	57	South	5302	"Belle Norman"	487	3	9	37
+18	58	South	1158	Kensei	52	3	9	38
+18	59	South	1300	"INR 3318"	98	3	9	39
+18	60	South	7291	S10-17-58	687	3	9	40
+18	61	South	9098	"Koidu Renett"	839	3	9	41
+18	62	South	6249	"Ottawa 665"	575	3	9	42
+19	1	North	6281	Milwaukee	1230	1	9	43
+19	2	North	12034	Wainwright	1151	1	9	44
+19	3	North	3199	Senshu	232	1	9	45
+19	4	North	4080	"KAR 89"	306	1	9	46
+19	5	North	6052	"Bedford Red"	512	1	9	47
+19	6	North	10289	Pixie	1009	1	9	48
+19	7	North	5070	Dufflin	410	1	9	49
+19	8	North	7116	S47-25-48	632	1	9	50
+19	9	North	5192	Damelot	451	1	9	51
+19	10	North	6119	Crookston	533	1	9	52
+19	11	North	6326	S42-38-04	596	1	9	53
+19	12	North	1076	Priam	26	1	9	54
+19	13	North	9291	"Golden Uralian"	903	1	9	55
+19	14	North	3034	"KAZ 96 08-15"	185	1	9	56
+19	15	North	4325	Democrat	382	1	9	57
+19	16	North	9222	Julyred	881	1	9	58
+19	17	North	9300	"Kaiser Wilhelm"	906	1	9	59
+19	18	North	10212	Pigeonnet	983	1	9	60
+19	19	North	3044	Jonamac	188	1	9	61
+19	20	North	11314	"Yellow Delicious"	1132	1	9	62
+19	21	North	8198	"Le Bret"	762	1	9	63
+19	22	North	11084	"Renetta Dorata"	1056	2	9	41
+19	23	North	11320	"Royal Jersey"	1134	2	9	42
+19	24	North	4239	"KAR 17"	354	2	9	43
+19	25	North	2045	"Kaz 95 10-03F"	1259	2	9	44
+19	26	North	6265	S29-13-72	579	2	9	45
+19	27	North	2198	Stayman	135	2	9	46
+19	28	North	12028	Vienna	1149	2	9	47
+19	29	North	11260	Oldenburg	1114	2	9	48
+19	30	North	8039	Hibernal	709	2	9	49
+19	31	North	4016	"KAS 50"	288	2	9	50
+19	32	North	3301	"KAS 62"	264	2	9	51
+19	33	North	1310	"Kaz 95 18-14"	1276	2	9	52
+19	34	North	5216	Drakenstein	459	2	9	53
+19	35	North	9066	"Keegan's Crab"	829	2	9	54
+19	36	North	7308	S19-12-42	693	2	9	55
+19	37	North	7065	S42-61-05	615	2	9	56
+19	38	North	8070	Lindel	719	2	9	57
+19	39	North	2260	Clivia	154	2	9	58
+19	40	North	4178	"KAR 34"	337	2	9	59
+19	41	North	4322	Carola	381	2	9	60
+19	42	North	5261	Cheddar	474	3	9	43
+19	43	North	3121	"Smith Jonathan"	209	3	9	44
+19	44	North	10341	"Noel Deschamps"	1026	3	9	45
+19	45	North	8108	Jubillee	732	3	9	46
+19	46	North	4301	Bisbee	374	3	9	47
+19	47	North	4107	"KAR 51"	315	3	9	48
+19	48	North	12092	"Stembridge Cluster"	1169	3	9	49
+19	49	North	6262	Greensleeves	1221	3	9	50
+19	50	North	3343	"KAR 91"	278	3	9	51
+19	51	North	5057	"Bisbee Giant Winesap"	406	3	9	52
+19	52	North	1067	Rebella	23	3	9	53
+19	53	North	2323	"GMAL 3265"	172	3	9	54
+19	54	North	4340	"Charles Ross"	387	3	9	55
+19	55	North	8102	"Gold Canel"	730	3	9	56
+19	56	North	11116	Mingan	1066	3	9	57
+19	57	North	4146	Evangeline	326	3	9	58
+19	58	North	5295	Caravel	485	3	9	59
+19	59	North	9270	Kamsomolez	897	3	9	60
+19	60	North	11131	"Red Cinnamon"	1071	3	9	61
+19	61	North	11326	Vilberie	1136	3	9	62
+19	62	North	6023	Cartigny	502	3	9	63
+19	1	South	4024	"KAS 69"	290	1	9	43
+19	2	South	5029	"Crow Egg"	396	1	9	44
+19	3	South	8071	Lindel	719	1	9	45
+19	4	South	7148	S23-02-626	642	1	9	46
+19	5	South	12104	Sharopa	1173	1	9	47
+19	6	South	7040	S23-04-462	1236	1	9	48
+19	7	South	8043	Heimenhofer	710	1	9	49
+19	8	South	6042	"Coast Apple"	508	1	9	50
+19	9	South	5014	Blauacher	391	1	9	51
+19	10	South	1267	S47-20-005	87	1	9	52
+19	11	South	8101	Kendall	729	1	9	53
+19	12	South	4207	"KAR 33"	345	1	9	54
+19	13	South	2205	Emilia	137	1	9	55
+19	14	South	3302	"KAS 62"	264	1	9	56
+19	15	South	10068	Ranger	936	1	9	57
+19	16	South	9273	Greensleeves	1222	1	9	58
+19	17	South	8053	"Laxton's Fortune"	713	1	9	59
+19	18	South	2199	Stayman	135	1	9	60
+19	19	South	4143	"KAS 42"	325	1	9	61
+19	20	South	3022	"Kaz 95 18-02P-33"	1265	1	9	62
+19	21	South	1147	"SPA 283"	49	1	9	63
+19	22	South	11190	"Reneta Woskowa"	1090	2	9	41
+19	23	South	11015	Marachal	1033	2	9	42
+19	24	South	9206	Greenchisel	875	2	9	43
+19	25	South	6279	"Canada Grise"	583	2	9	44
+19	26	South	4156	"KAR 52"	329	2	9	45
+19	27	South	6246	"Blue Pearmain"	574	2	9	46
+19	28	South	2061	"Kaz 95 07-05"	114	2	9	47
+19	29	South	6192	Battleford	556	2	9	48
+19	30	South	3080	"Winter Banana"	198	2	9	49
+19	31	South	6219	Brunnsapple	565	2	9	50
+19	32	South	1026	Pristine	9	2	9	51
+19	33	South	5209	"Coconut Crunch"	456	2	9	52
+19	34	South	12066	Stroming	1161	2	9	53
+19	35	South	8325	"Loop Giant Spy"	804	2	9	54
+19	36	South	9131	Huvitus	850	2	9	55
+19	37	South	12141	"San Jacinto"	1185	2	9	56
+19	38	South	1012	Florina	4	2	9	57
+19	39	South	3318	"KAR 93"	269	2	9	58
+19	40	South	8020	Holland	702	2	9	59
+19	41	South	6053	"Bedford Red"	512	2	9	60
+19	42	South	9301	"Kaiser Wilhelm"	906	3	9	43
+19	43	South	5205	Caillouett	455	3	9	44
+19	44	South	11112	"Oetwiler Renette"	1064	3	9	45
+19	45	South	8041	Hibernal	709	3	9	46
+19	46	South	3312	"KAS 72"	267	3	9	47
+19	47	South	2264	Baldwin	155	3	9	48
+19	48	South	13014	"Saivanskaiya(Apple-Tree From Saivan)"	1192	3	9	49
+19	49	South	6003	Bemali	496	3	9	50
+19	50	South	10236	Porter	991	3	9	51
+19	51	South	10158	Mislimka	966	3	9	52
+19	52	South	10171	"Ottawa 546"	970	3	9	53
+19	53	South	6015	Charlotte	1218	3	9	54
+19	54	South	11064	"Magnolia Gold"	1049	3	9	55
+19	55	South	5215	"Antonovka Ottawa"	458	3	9	56
+19	56	South	2106	"Kaz 95 18-04"	1271	3	9	57
+19	57	South	5281	Blairmont	480	3	9	58
+19	58	South	8191	"Halberstadter Jungfernapfel"	759	3	9	59
+19	59	South	6062	Duchess	515	3	9	60
+19	60	South	5262	Cheddar	474	3	9	61
+19	61	South	2328	Niedzwetzkyana	1301	3	9	62
+19	62	South	4228	"KAR 24"	350	3	9	63
