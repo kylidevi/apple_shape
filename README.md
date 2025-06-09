@@ -1,7 +1,10 @@
 # apple_shape
 
+This repository is the code associated with: _Differences in fruit shape are independent of fruit size_
+
 DOI: 10.5061/dryad.xgxd254tg
-This repository is for the morphometric analysis of fruit.
+
+---
 
 **File Structure:**
 <ul>
