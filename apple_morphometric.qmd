@@ -720,7 +720,7 @@ dim_num = 2 # select number of coordinate value dimensions
 mean_shape = gpa_mean(apple_cm_arr, landmark_num, dim_num)
 
 ################################
-### ALIGN LEAVES TO GPA MEAN ###
+### ALIGN APPLES TO GPA MEAN ###
 ################################
 
 # array to store Procrustes aligned shapes
