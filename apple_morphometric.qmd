@@ -1015,7 +1015,7 @@ plt.tight_layout()
 plt.show()
 
 # save figure
-plt.savefig("Figure2.pdf")
+plt.savefig("Figure3.pdf")
 ```
 
 ### Morphospace (by Genotype)
