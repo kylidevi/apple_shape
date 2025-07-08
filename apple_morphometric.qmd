@@ -927,6 +927,7 @@ all_data <- all_data %>% relocate(aspect_ratio, .after = circularity_reml_lsmean
 all_data <- all_data %>% relocate(weight_avg_16_harv, .after = aspect_ratio)
 
 # save data before with all apple id
+# This is TableS1
 write.csv(all_data, file = "analysis_apple_metadata.csv")
 
 # table how many binaries per tree
