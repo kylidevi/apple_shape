@@ -4,7 +4,7 @@
 library(tidyverse)
 
 # load in data set and select for calculated values
-cor_table <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv") %>% 
+cor_table <- read.csv("analysis_apple_metadata.csv") %>% 
   distinct(apple_id, .keep_all = TRUE) %>% 
   dplyr::select(18:27, 35)
   
@@ -94,7 +94,7 @@ correlation_data <- correlation_data %>%
   mutate(`trait 2` = gsub("release_year", "Release Year", `trait 2`))
   
 # export table
-write.csv(correlation_data, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505Appendix_Table_S2.csv", row.names = FALSE)
+write.csv(correlation_data, file = "TableS2.csv", row.names = FALSE)
 
 table(correlation_data$correlation < 0 & correlation_data$pval < 0.05)
 # FALSE  TRUE 
