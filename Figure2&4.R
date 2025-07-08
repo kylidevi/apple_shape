@@ -8,7 +8,7 @@ library(ggpubr)
 library(viridis)
 
 # read in data
-apple_data <- read.csv("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/20241218apple_metadata.csv") %>% 
+apple_data <- read.csv("analysis_apple_metadata.csv") %>% 
   distinct(apple_id, .keep_all = TRUE)
 
 ## Figure 2
@@ -72,12 +72,12 @@ plot2 <- plot_grid(widthXlength, widthXarea, lengthXarea, lengthXweight, widthXw
 
 print(plot2)
 
-ggsave("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/Figure2_1219.pdf", plot = plot2, units = "in", width = 16, height = 10)
+ggsave("Figure2.pdf", plot = plot2, units = "in", width = 16, height = 10)
 
 
 
 
-## Figure 4
+## Figure 5
 ## plotting for 534 different apple_id with reml adjusted values
 # area x PC1 -----------------------------------------------------
 areaXPC1 <- ggplot(data = apple_data, aes(y = area_reml_lsmeans_predict, x = PC1_reml_lsmeans_predict, colour = aspect_ratio)) +
@@ -113,4 +113,4 @@ plot4 <- ggarrange(PC1Xaspectratio, areaXPC1, PC1Xharvestweight, ncol = 3, label
 
 print(plot4)
 
-ggsave("C:/Users/User/Desktop/COOP02/code/apple_shape/output_final/Figure4_1219.pdf", plot = plot4, units = "in", width = 11, height = 4.5)
+ggsave("Figure5.pdf", plot = plot4, units = "in", width = 11, height = 4.5)
