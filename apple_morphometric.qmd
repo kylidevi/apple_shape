@@ -115,7 +115,7 @@ def poly_area(x,y):
     """
     return 0.5*np.abs(np.dot(x,np.roll(y,1))-np.dot(y,np.roll(x,1)))
 
-def gpa_mean(leaf_arr, landmark_num, dim_num):
+def gpa_mean(apple_arr, landmark_num, dim_num):
     
     """
     define a function that given an array of landmark data returns the Generalized Procrustes Analysis mean
@@ -125,7 +125,7 @@ def gpa_mean(leaf_arr, landmark_num, dim_num):
     """
 
     ref_ind = 0 # select arbitrary reference index to calculate procrustes distances to
-    ref_shape = leaf_arr[ref_ind, :, :] # select the reference shape
+    ref_shape = apple_arr[ref_ind, :, :] # select the reference shape
 
     mean_diff = 10**(-30) # set a distance between means to stop the algorithm
 
@@ -135,11 +135,11 @@ def gpa_mean(leaf_arr, landmark_num, dim_num):
 
     while d > mean_diff: # set boolean criterion for Procrustes distance between mean to stop calculations
 
-        arr = np.zeros( ((len(leaf_arr)),landmark_num,dim_num) ) # empty 3D array: # samples, landmarks, coord vals
+        arr = np.zeros( ((len(apple_arr)),landmark_num,dim_num) ) # empty 3D array: # samples, landmarks, coord vals
 
-        for i in range(len(leaf_arr)): # for each leaf shape 
+        for i in range(len(apple_arr)): # for each apple shape 
 
-            s1, s2, distance = procrustes(old_mean, leaf_arr[i]) # calculate procrustes adjusted shape to ref for current leaf
+            s1, s2, distance = procrustes(old_mean, apple_arr[i]) # calculate procrustes adjusted shape to ref for current apple
             arr[i] = s2 # store procrustes adjusted shape to array
 
         new_mean = np.mean(arr, axis=(0)) # calculate mean of all shapes adjusted to reference
@@ -173,7 +173,7 @@ def polygon_perimeter(vertices):
   return perimeter
 ```
 
-<!-- Following sections are for reading in the data and does the preliminary image analysis -->
+<!-- Following sections are for reading in the data and preliminary image analysis -->
 
 ### Apple Data
 
@@ -186,7 +186,7 @@ def polygon_perimeter(vertices):
 ########################
 
 # read in csv from directory
-mdata = pd.read_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/apple_metadata.csv") 
+mdata = pd.read_csv("apple_metadata.csv") 
 
 mdata.head() # head data to check
 ```
@@ -198,7 +198,7 @@ mdata.head() # head data to check
 #######################################
 
 # set image directory
-data_dir = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/binary_domestica/" 
+data_dir = "all_binaries/binary_side_domestica/" 
 
 file_names = [f for f in listdir(data_dir) if isfile(join(data_dir, f))] # create a list of file names
 
@@ -212,18 +212,18 @@ file_names[slice(50)] # check list of file names, only first 50
 #### Process and Landmarking
 
 -   Read in image in grayscale
--   Select the contour of the largest object (the leaf)
+-   Select the contour of the largest object (the apple)
 -   Interpolate with a high resolution of pseudo-landmarks
 -   Find the bottom and top index point on the high resolution contour
 -   Reset the bottom index to zero
 -   Interpolate each side with desired number of equidistant pseudo-landmarks
--   Rotate leaves and scale to centimeters
+-   Rotate apples and scale to centimeters
 -   Save pseudo-landmarks scaled to centimeters in an array
 
 ##### PARAMETERS AND INDEXING:
 
 -   `high_res_pts` is an arbitrarily high number of points to initially interpolate
--   `res` is the desired number of points to interpolate on each side of the leaf
+-   `res` is the desired number of points to interpolate on each side of the apple
 -   The total number of pseudo-landmarks will be `2*res - 1`
 -   The bottom index will be `0`
 -   The top index will be `res-1`
@@ -236,7 +236,7 @@ file_names[slice(50)] # check list of file names, only first 50
 ######################
 
 # the number of equidistant points to create
-# an initial high resolution outline of the leaf
+# an initial high resolution outline of the apple
 high_res_pts = 1000 
 
 # the ultimate number of equidistant points on each side of the apple
@@ -261,7 +261,7 @@ for lf in range(len(mdata)):
     ###############################
 
     curr_image = mdata["file"][lf] # select the current image
-    print(lf, curr_image) # print each leaf in case there are problems later
+    print(lf, curr_image) # print each apple in case there are problems later
     
     # read in image
     # convert to grayscale
@@ -398,7 +398,7 @@ for lf in range(len(mdata)):
 ### Pseudo-landmarking
 
 ```{python}
-#| label: Pseudo-landmarks
+#| label: Pseudo-landmarks (Figure 1d)
 # Plot each apple
 
 plt.figure(figsize=(40,60))
@@ -422,12 +422,12 @@ plt.subplots_adjust(hspace=0.4)
 plt.suptitle(str(res*2-1) + " pseudo-landmarks")
 plt.show()
 
-# export figure
-plt.savefig("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505Figure1d.pdf")
+# export figure (panel 1d)
+plt.savefig("Figure1d.pdf")
 ```
 
 ```{python}
-#| label: Pseudo-landmarks shape
+#| label: Pseudo-landmarks shape (Figure S1)
 # Plot each apple
 
 plt.figure(figsize=(40,60))
@@ -474,14 +474,14 @@ plt.suptitle(str(res*2-1) + " pseudo-landmarks")
 plt.show()
 
 # export figure
-plt.savefig("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505supplementalLandmarks.pdf")
+plt.savefig("FigureS1.pdf")
 ```
 
 <!-- The following sections of code are for analysis -->
 
 ### Analyzing Apple Dimensions
 
-Using placed pseudo-landmarks representing leaves that are rotated upwards and scaled in centimeters from `apple_cm_arr`, calculate the following:
+Using placed pseudo-landmarks representing apples that are rotated upwards and scaled in centimeters from `apple_cm_arr`, calculate the following:
 
 -   `width`: difference in centimeters between minimum and maximum x values in an oriented apple
 -   `length`: difference in centimeters between minimum and maximum y values in an oriented apple
@@ -545,7 +545,7 @@ mdata["solidity"] = solidity_list
 mdata["circularity"] = circularity_list
 
 # save output so you don't have to run the code all the time
-mdata.to_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv", index = False)
+mdata.to_csv("analysis_apple_metadata.csv", index = False)
 ```
 
 #### REML Adjustment
@@ -556,7 +556,7 @@ mdata.to_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/2
 library(tidyverse)
 
 # reading data
-apple_traits <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
+apple_traits <- read.csv("analysis_apple_metadata.csv")
 
 # averaging within the tree
 apple_traits <- apple_traits %>% 
@@ -564,7 +564,7 @@ apple_traits <- apple_traits %>%
   mutate(across(all_of(c(8:12)), ~mean(.x, na.rm = TRUE), .names = "{col}"))
 
 # save file
-write.csv(apple_traits, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata_avg.csv")
+write.csv(apple_traits, file = "analysis_apple_metadata_avg.csv")
 ```
 
 <!-- Running the REML adjustment -->
@@ -578,9 +578,9 @@ library(pbkrtest)
 library(tidyverse)
 
 # load in data
-reml_design <- read.table("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/reml/20161024_ABC_design_grid_zm.txt", header = T)
+reml_design <- read.table("20161024_ABC_design_grid_zm.txt", header = T)
 
-apple_traits <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata_avg.csv")
+apple_traits <- read.csv("analysis_apple_metadata_avg.csv")
 
 # Loading the metadata to match the design file
 ph = apple_traits[match(reml_design[,"nursery_id"], apple_traits[,"nursery_id"]),] # Grab phenotype data in correct order
@@ -690,7 +690,7 @@ cor.test(mean_vals$circularity, circularity_reml_lsmeans_predict)
 #cor circularity: 0.9909962
 
 predict <- tibble::rownames_to_column(predict, "apple_id")
-write_delim(predict, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/prediction_values.txt")
+write_delim(predict, file = "prediction_values.txt")
 ```
 
 <!-- The following sections are the Procrustes Analysis -->
@@ -704,7 +704,7 @@ Perform a Procrustes analysis to translate, scale, and rotate apple shapes
 -   Align all apples to the GPA mean
 -   Store Procrustes super-imposed apples in an array, `proc_arr`
 -   Calculate a PCA for all possible axes and their variance (the number of apples)
--   Calculate a PCA for just the axes needed for reconstruction of eigenleaves for morphospace (probably 2)
+-   Calculate a PCA for just the axes needed for reconstruction of eigenapples for morphospace (probably 2)
 
 #### Calculate GPA Mean
 
@@ -763,7 +763,7 @@ for i in range(len(pca_all.explained_variance_ratio_)):
 ### NEXT, CALCULATE THE DESIRED NUMBER OF PCs ###
 #################################################
 
-new_mdata = pd.read_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
+new_mdata = pd.read_csv("analysis_apple_metadata.csv")
 
 ##############
 PC_NUMBER = 3
@@ -784,7 +784,7 @@ new_mdata["PC2"] = PCs[:,1]
 new_mdata["PC3"] = PCs[:,2]
 
 # save output with PC
-new_mdata.to_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv", index = False)
+new_mdata.to_csv("analysis_apple_metadata.csv", index = False)
 ```
 
 #### REML Adjustment
@@ -793,7 +793,7 @@ new_mdata.to_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_fin
 #| label: REML Input Data (PC)
 
 # read in files
-apple_traits <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
+apple_traits <- read.csv("analysis_apple_metadata.csv")
 
 # averaging within the tree
 apple_traits <- apple_traits %>% 
@@ -801,7 +801,7 @@ apple_traits <- apple_traits %>%
   mutate(across(all_of(c(13:15)), ~mean(.x, na.rm = TRUE), .names = "{col}"))
 
 # save file
-write.csv(apple_traits, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata_avg.csv")
+write.csv(apple_traits, file = "analysis_apple_metadata_avg.csv")
 ```
 
 <!-- Running the REML adjustment -->
@@ -815,9 +815,9 @@ library(pbkrtest)
 library(tidyverse)
 
 # read in data
-reml_design <- read.table("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/reml/20161024_ABC_design_grid_zm.txt", header = T)
+reml_design <- read.table("20161024_ABC_design_grid_zm.txt", header = T)
 
-apple_traits <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata_avg.csv")
+apple_traits <- read.csv("analysis_apple_metadata_avg.csv")
 
 # Loading the metadata to match the design file
 ph = apple_traits[match(reml_design[,"nursery_id"], apple_traits[,"nursery_id"]),] # Grab phenotype data in correct order
@@ -889,24 +889,24 @@ cor.test(mean_vals$PC3, PC3_reml_lsmeans_predict)
 #cor PC3: 1
 
 # save data
-write_delim(predict, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/prediction_values.txt")
+write_delim(predict, file = "prediction_values.txt")
 ```
 
-<!-- Supplemental Figure 1 -->
+<!-- Supplemental Figure 2 -->
 
 ### Pairs Plot
 
 ```{r}
-#| label: Pair Plot by Cultivar
+#| label: Pair Plot by Cultivar (Figure S2)
 library(tidyverse)
 library(GGally)
 library(readxl)
 library(ggthemes)
 
 # import data
-predicted <- read.delim("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/prediction_values.txt", sep = "")
-apple_data <- read.csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv") 
-dataset <- read_excel("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/Dataset_S1.xlsx", sheet = "phenotype_data")
+predicted <- read.delim("Cprediction_values.txt", sep = "")
+apple_data <- read.csv("analysis_apple_metadata.csv") 
+dataset <- read_excel("Dataset_S1.xlsx", sheet = "phenotype_data")
 
 # combining datasets
 all_data <- left_join(apple_data, predicted)
@@ -927,7 +927,7 @@ all_data <- all_data %>% relocate(aspect_ratio, .after = circularity_reml_lsmean
 all_data <- all_data %>% relocate(weight_avg_16_harv, .after = aspect_ratio)
 
 # save data before with all apple id
-write.csv(all_data, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
+write.csv(all_data, file = "analysis_apple_metadata.csv")
 
 # table how many binaries per tree
 trees <- all_data %>% 
@@ -935,17 +935,16 @@ trees <- all_data %>%
   summarise(total_count = n())
 
 # save summary
-write.csv(trees, file = "C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505sample_size.csv", row.names = FALSE)
+write.csv(trees, file = "sample_size.csv", row.names = FALSE)
 
 # filter for each unique genotype
 all_data <- all_data %>% distinct(apple_id, .keep_all = TRUE)
 
-# MAKE SURE THAT THIS IS PLOTTING CORRECTLY ADD IN BETTER LABELS
 # plotting for 533 different apple_id with REML adjusted values
 plot1 <- ggpairs(all_data, columns = c(17:26, 34), aes(fill = "grey", alpha = 0.5), columnLabels = c("Width", "Length", "Area", "Solidity", "Circularity", "Aspect Ratio", "Harvest Weight", "PC1", "PC2", "PC3", "Release Year"), upper = list(continuous = "points"), diag = list(continuous = wrap("densityDiag", fill = "black"))) + theme_few()
 
 # save plot
-ggsave("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/SupplementalFigure1_0505.pdf", plot = plot1, units = "in", width = 17, height = 15)
+ggsave("FigureS2.pdf", plot = plot1, units = "in", width = 17, height = 15)
 ```
 
 ### Eigen Representation of PC
@@ -956,7 +955,7 @@ ggsave("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/Supplem
 ### CREATE EIGEN REPRESENTATIONS OF FIRST 3 PCs ###
 ###################################################
 
-new_mdata = pd.read_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
+new_mdata = pd.read_csv("analysis_apple_metadata.csv")
 
 # calculate standard deviations for each PC
 PC1_std = new_mdata["PC1_reml_lsmeans_predict"].std()
@@ -998,9 +997,9 @@ counter = 1
 for i in range(len(PC_vals)):
     
     # create inverse apple
-    inv_leaf = pca.inverse_transform(np.array(PC_vals[i]))
-    inv_x = inv_leaf[0::2] # select just inverse x vals
-    inv_y = inv_leaf[1::2] # select just inverse y vals
+    inv_apple = pca.inverse_transform(np.array(PC_vals[i]))
+    inv_x = inv_apple[0::2] # select just inverse x vals
+    inv_y = inv_apple[1::2] # select just inverse y vals
     
     # plot inverse apple
     plt.subplot(3,7,counter)
@@ -1016,7 +1015,7 @@ plt.tight_layout()
 plt.show()
 
 # save figure
-plt.savefig("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/SupplementalFigure2_0505.pdf")
+plt.savefig("Figure2.pdf")
 ```
 
 ### Morphospace (by Genotype)
@@ -1033,7 +1032,7 @@ Visualize a morphospace and classify apples by the factor of genotype
 ### CREATE MORPHOSPACE ###
 ##########################
 
-averaged = pd.read_csv("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/20250505apple_metadata.csv")
+averaged = pd.read_csv("analysis_apple_metadata.csv")
 
 # set plot parameters
 plot_length = 40  # plot length in inches
@@ -1065,12 +1064,12 @@ for i in PC1_vals:  # for each PC1 interval
         pc1_val = i  # select the current PC1 val
         pc3_val = j  # select the current PC2 val
 
-        # calculate the inverse eigenleaf
+        # calculate the inverse eigenapple
         inv_apple = pca.inverse_transform(np.array([pc1_val, 0, pc3_val]))
         inv_x = inv_apple[0::2]  # select just inverse x vals
         inv_y = inv_apple[1::2]  # select just inverse y vals
 
-        # plot the inverse eigenleaf
+        # plot the inverse eigenapple
         plt.fill(inv_x * s + pc1_val, inv_y * s + pc3_val, c=lf_col, alpha=lf_alpha)
 
 # Normalize the color scale based on the aspect ratio limits
@@ -1115,5 +1114,5 @@ plt.gca().set_axisbelow(True)
 plt.show()
 
 # save figure
-plt.savefig("C:/Users/User/Desktop/CO-OP/COOP02/code/apple_shape/output_final/Figure3_0505.pdf")
+plt.savefig("Figure4.pdf")
 ```
