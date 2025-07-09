@@ -2,11 +2,11 @@
 
 This repository is the code associated with: _Differences in fruit shape are independent of fruit size_
 
-DOI: <a href="10.5061/dryad.xgxd254tg">10.5061/dryad.xgxd254tg</a>
+DOI: <a href="https://doi.org/10.5061/dryad.xgxd254tg">10.5061/dryad.xgxd254tg</a>
 
 ---
 
-Data needed to get started with this analysis can be found on Dryad (<a href="10.5061/dryad.xgxd254tg">10.5061/dryad.xgxd254tg</a>), and _**must**_ be downloaded before running code
+Data needed to get started with this analysis can be found on Dryad (<a href="https://doi.org/10.5061/dryad.xgxd254tg">10.5061/dryad.xgxd254tg</a>), and _**must**_ be downloaded before running code
 
 **File Structure:**
 <ul>
